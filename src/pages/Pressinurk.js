@@ -1,11 +1,12 @@
 import NavbarPage from "../components/NavbarPage";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 function Pressinurk() {
   return (
     <div>
-      <NavbarPage />
+      <Navbar />
       <img className="pageImg" src="pageImg.jpg" alt="" />
       <div>
         <h1>PRESSINURK</h1>
