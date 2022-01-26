@@ -30,18 +30,6 @@ function Poordumised() {
           <p>Tekst</p>
           <Link to="">LOE EDASI</Link>
         </div>
-        <div className="card">
-          <div className="card-image"></div>
-          <h2>Pealkiri</h2>
-          <p>Tekst</p>
-          <Link to="">LOE EDASI</Link>
-        </div>
-        <div className="card">
-          <div className="card-image"></div>
-          <h2>Pealkiri</h2>
-          <p>Tekst</p>
-          <Link to="">LOE EDASI</Link>
-        </div>
       </section>
       <Footer />
     </div>

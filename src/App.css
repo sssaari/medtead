@@ -11,9 +11,9 @@
   height: auto;
 
   /* Set up positioning */
-  position: center;
-  top: 0;
-  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
   max-width: 1440px;
   min-width: 1440px;
@@ -30,6 +30,7 @@
   position: fixed;
   left: 0;
   top: 0;
+  justify-content: center;
 }
 
 .navbarBtnList {
@@ -38,6 +39,12 @@
   padding-top: 17px;
   position: center;
   opacity: 100%;
+}
+
+.homePageTitle {
+  color: white;
+  font-size: 50px;
+  margin-top: 70px;
 }
 
 .navbarPage {
@@ -103,7 +110,12 @@
   text-align: center;
 }
 
-.articleBox {
+.containerArticle {
+  display: flex;
+  justify-content: center;
+}
+
+.articleCard {
   width: 80%;
   padding: 20px 30px;
   text-align: center;
@@ -145,13 +157,13 @@
   cursor: pointer;
 }
 
-.card-image {
+/* .card-image {
   background-color: rgb(174, 193, 209);
   height: 150px;
   margin-bottom: 15px;
   background-size: cover;
   border-radius: 5px;
-}
+} */
 
 .card title {
   padding: 10px;
@@ -174,9 +186,9 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  position: fixed;
 }
 
 .cardHome {
   width: 500px;
+  margin: 30px 20px;
 }

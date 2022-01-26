@@ -6,6 +6,7 @@ function Avaleht() {
   return (
     <div>
       <NavbarHome />
+      <img className="bgImg" src="mainBG.jpg" alt="" />
       <section className="containerHome">
         <div className="cardHome">
           Meile, MTÜ Ühinenud Meedikud ja Teadlased liikmetele, on oluline ja
@@ -35,7 +36,6 @@ function Avaleht() {
         </div>
       </section>
 
-      <img className="bgImg" src="mainBG.jpg" alt="" />
       <Footer />
     </div>
   );
