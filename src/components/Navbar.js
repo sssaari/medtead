@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="navbar">
-      <div className="navbarBtnListPage">
-        <div className="brand">ÜHINENUD MEEDIKUD JA TEADLASED</div>
+      <div className="brand">ÜHINENUD MEEDIKUD JA TEADLASED</div>
+      <div className="navbarList">
         <Link to="/" className="link">
           AVALEHT
         </Link>
@@ -20,9 +20,11 @@ function Navbar() {
         <Link to="/Kontakt" className="link">
           KONTAKT
         </Link>
-        <a href="#" class="toggle" id="navHamburger">
-          <i class="fas fa-bars"></i>
-        </a>
+        <div className="right">
+          <a href="#" className="toggle" id="navHamburger">
+            <i className="fas fa-bars"></i>
+          </a>
+        </div>
       </div>
     </div>
   );

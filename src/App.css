@@ -62,7 +62,6 @@
 .pageImg {
   max-width: 1440px;
   width: 100%;
-  margin-top: 35px;
 }
 
 .navbarBtnListPage {
@@ -193,10 +192,11 @@
   margin: 30px 20px;
 }
 
-/* testing youtube tutorial */
-.navbar {
-  background: #415068;
-}
+/* testing youtube navbar tutorial */
+
+/*.navbar {
+  background: #c4c4c4;
+} */
 .navbar div {
   display: none;
 }
@@ -209,7 +209,6 @@
   text-align: center;
   padding: 1em;
   text-decoration: none;
-  background: #223047;
   color: white;
 }
 .navbar .link:hover,
@@ -219,33 +218,32 @@
 }
 .navbar .brand {
   width: 18em;
-  text-align: center;
+  text-align: left;
   padding: 1em;
+  padding-left: 2em;
   color: white;
+  display: flex;
 }
 .navbar a {
   text-decoration: none;
 }
 .navbar .toggle {
   padding: 1em;
-  color: black;
+  color: white;
 }
 @media (min-width: 48em) {
-  .navbar {
-    display: flex;
-  }
-  .navbar .left,
+  /*.navbar .left,
   .navbar .right {
     display: flex;
     flex: 1;
-  }
+  }*/
   .navbar .link {
     width: auto;
   }
   .navbar .right {
     justify-content: flex-end;
   }
-  .navbar .toggle {
+  .navbar.toggle {
     display: none;
   }
 }
@@ -253,16 +251,20 @@
   .navbar div {
     display: flex;
   }
+  .navbarList {
+    display: flex;
+    justify-content: center;
+  }
 }
 @media (max-width: 48em) {
-  .navbar .active .toggle {
+  .navbar.active .toggle {
     background: #223047;
     color: white;
   }
   .navbar .brand {
     text-align: left;
   }
-  .navbar .active div {
+  .navbar.active div {
     display: block;
   }
 }
