@@ -1,13 +1,12 @@
 import { Link, Route, Routes } from "react-router-dom";
 import NavbarHome from "../components/NavbarHome/NavbarHome";
-import Footer from "../components/Footer";
+import FooterHome from "../components/FooterHome";
 import Navbar from "../components/Navbar/Navbar";
 
 function Avaleht() {
   return (
-    <div>
+    <div className="bgImg">
       <NavbarHome />
-      <img className="bgImg" src="mainBG.jpg" alt="" />
       <section className="containerHome">
         <div className="cardHome">
           Meile, MTÜ Ühinenud Meedikud ja Teadlased liikmetele, on oluline ja
@@ -37,7 +36,7 @@ function Avaleht() {
         </div>
       </section>
 
-      <Footer />
+      <FooterHome />
     </div>
   );
 }

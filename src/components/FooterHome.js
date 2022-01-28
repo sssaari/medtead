@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-function Footer() {
+function FooterHome() {
   return (
-    <div className="footer">
+    <div className="footerHome">
       <div className="footerBtnList">
         <Link to="/Pohikiri" className="footerBtn">
           PÕHIKIRI
@@ -12,4 +12,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default FooterHome;

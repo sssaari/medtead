@@ -80,13 +80,13 @@
   .nav-menu {
     display: grid;
     grid-template-columns: auto;
-    background: rgb(174, 193, 209);
+    background-color: rgb(183, 195, 199);
     margin: 0;
     width: 100%;
     position: absolute;
     top: 50px;
     right: -100%;
-    opacity: 0;
+    /* opacity: 0; */
     transition: all 0.5s ease;
   }
 

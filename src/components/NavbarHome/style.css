@@ -8,13 +8,15 @@
 .nav-container {
   width: 100%;
   /*background-color: blanchedalmond;*/
+  background-color: rgb(183, 195, 199);
+  opacity: 70%;
 }
 
 .navbar {
   display: grid;
   grid-template-columns: 0.2fr auto 1fr;
   align-items: center;
-  height: 60px;
+  height: 10px;
   width: 80%;
   max-width: 1600px;
   margin: 0 auto;
@@ -91,7 +93,9 @@
   }
 
   #navbar-logo {
-    margin-left: 20px;
+    position: fixed;
+    left: 5%;
+    top: 1%;
   }
 
   .nav-menu.active {
@@ -130,11 +134,17 @@
     transition: all 0.4s ease-out; 
   } */
 
-  #mobile-menu {
+  /* initially according to tutorial: 
+ #mobile-menu {
     position: absolute;
     top: 20%;
     right: 5%;
     transform: translate(5%, 20%);
+  } */
+
+  #mobile-menu {
+    position: fixed;
+    right: 5px;
   }
 
   .menu-toggle .bar {

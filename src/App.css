@@ -1,90 +1,26 @@
 .bgImg {
-  /* Set rules to fill background */
-  min-height: 100%;
-  /* min-width: 1024px; */
-
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-
-  /* Set up positioning */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-  max-width: 1440px;
-  min-width: 1440px;
-}
-
-.navbarHome {
-  width: 100%;
-  height: 190px;
-  background-color: #c4c4c4;
-  opacity: 60%;
-  font-family: "arial";
-  color: black;
-  font-size: 16;
-  position: fixed;
-  left: 0;
-  top: 0;
-  justify-content: center;
-}
-
-.navbarBtnList {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 17px;
-  position: center;
-  opacity: 100%;
-}
-
-.homePageTitle {
-  color: white;
-  font-size: 50px;
-  margin-top: 70px;
-}
-
-.navbarPage {
-  width: 100%;
-  height: 50px;
-  background-color: #f1eaea;
-  font-family: "arial";
-  color: black;
-  font-size: 16;
-  position: fixed;
-  left: 0;
-  top: 0;
+  background-image: url("../public/mainBG.jpg");
+  /* Full height */
+  height: 100vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .pageImg {
   max-width: 1440px;
   width: 100%;
-}
-
-.navbarBtnListPage {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 17px;
-  position: center;
-}
-
-.navbarBtn {
-  margin: 0px 25px;
-  color: black;
-  text-decoration: none;
+  justify-self: center;
 }
 
 .link {
   text-decoration: none;
 }
 
-.navbarBtn:hover {
-  transition: 0.5s;
-  transform: scale(1.1);
-}
-
-.navName {
-  color: #9d9a9a;
+.footerBtn {
+  text-decoration: none;
+  color: white;
 }
 
 .footer {
@@ -96,7 +32,19 @@
   bottom: 0;
   color: black;
   justify-content: center;
-  background-color: #c4c4c4;
+  background-color: rgb(183, 195, 199);
+}
+
+.footerHome {
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  /* background-color: #f1eaea; */
+  left: 0;
+  bottom: 0;
+  color: black;
+  justify-content: center;
+  background-color: rgb(183, 195, 199);
   opacity: 60%;
 }
 
@@ -121,16 +69,6 @@
   position: center;
   margin: 20px 50px 100px 50px;
   justify-content: center;
-}
-
-.homeText {
-  position: fixed;
-  margin-top: 200px;
-  max-width: 800px;
-  width: 80%;
-  position: center;
-  color: white;
-  padding: 30px 50px;
 }
 
 .container {
@@ -188,7 +126,19 @@
 
 .cardHome {
   width: 500px;
-  margin: 30px 20px;
+  position: fixed;
+  margin-top: 20%;
+  max-width: 800px;
+  width: 80%;
+  position: center;
+  color: white;
+  padding: 30px 50px;
+}
+
+.homePageTitle {
+  color: white;
+  font-size: 50px;
+  margin-top: 70px;
 }
 
 h1 {
