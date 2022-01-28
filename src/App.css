@@ -1,6 +1,3 @@
-.App {
-  text-align: center;
-}
 .bgImg {
   /* Set rules to fill background */
   min-height: 100%;
@@ -123,6 +120,7 @@
   opacity: 80%;
   position: center;
   margin: 20px 50px 100px 50px;
+  justify-content: center;
 }
 
 .homeText {
@@ -145,9 +143,10 @@
 .card {
   background: white;
   width: 300px;
-
+  justify-content: center;
   border-radius: 5px;
   margin: 10px;
+  text-align: center;
 }
 
 .card:hover {
@@ -192,79 +191,7 @@
   margin: 30px 20px;
 }
 
-/* testing youtube navbar tutorial */
-
-/*.navbar {
-  background: #c4c4c4;
-} */
-.navbar div {
-  display: none;
-}
-.navbar .toggle,
-.navbar .brand {
-  display: inline-block;
-}
-.navbar .link {
-  display: block;
+h1 {
   text-align: center;
-  padding: 1em;
-  text-decoration: none;
-  color: white;
-}
-.navbar .link:hover,
-.navbar .link:active {
-  color: #223047;
-  background: white;
-}
-.navbar .brand {
-  width: 18em;
-  text-align: left;
-  padding: 1em;
-  padding-left: 2em;
-  color: white;
-  display: flex;
-}
-.navbar a {
-  text-decoration: none;
-}
-.navbar .toggle {
-  padding: 1em;
-  color: white;
-}
-@media (min-width: 48em) {
-  /*.navbar .left,
-  .navbar .right {
-    display: flex;
-    flex: 1;
-  }*/
-  .navbar .link {
-    width: auto;
-  }
-  .navbar .right {
-    justify-content: flex-end;
-  }
-  .navbar.toggle {
-    display: none;
-  }
-}
-@media (min-width: 48em) {
-  .navbar div {
-    display: flex;
-  }
-  .navbarList {
-    display: flex;
-    justify-content: center;
-  }
-}
-@media (max-width: 48em) {
-  .navbar.active .toggle {
-    background: #223047;
-    color: white;
-  }
-  .navbar .brand {
-    text-align: left;
-  }
-  .navbar.active div {
-    display: block;
-  }
+  justify-self: center;
 }

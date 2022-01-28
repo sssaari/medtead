@@ -1,10 +1,10 @@
-import NavbarPage from "../components/NavbarPage";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar/Navbar";
 
 function Pohikiri() {
   return (
     <div>
-      <NavbarPage />
+      <Navbar />
       <img className="pageImg" src="pageImg.jpg" alt="" />
       <div className="containerArticle">
         <div className="articleCard">
