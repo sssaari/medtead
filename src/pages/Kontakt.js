@@ -10,17 +10,24 @@ function Kontakt() {
         <div className="containerArticle">
           <div className="articleCard">
             <h1>KONTAKT</h1>
+            <br />
             <p>
               <strong>E-mail:</strong> meedikud.teadlased@gmail.com
+              <br />
+              <br />
             </p>
             <p>
               <strong>Aadress:</strong> MTÜ aadress Saaremaa, Vanalõve küla ,
               Leieri talu, 94318
+              <br />
+              <br />
             </p>
             <p>
               <strong>Arvelduskonto:</strong> a/a LHV EE587700771007269270
               <br />
+              <br />
               Aasta liikmemaks 30 EUR
+              <br />
             </p>
           </div>
         </div>

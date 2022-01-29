@@ -5,18 +5,17 @@
   /*font-family: "oxygen", "sans-serif";*/
 }
 
-.nav-container {
+.nav-containerHome {
   width: 100%;
   /*background-color: blanchedalmond;*/
-  background-color: rgb(183, 195, 199);
-  opacity: 70%;
+  background-color: rgb(183, 195, 199, 0.7);
 }
 
 .navbar {
   display: grid;
   grid-template-columns: 0.2fr auto 1fr;
   align-items: center;
-  height: 10px;
+  height: 50px;
   width: 80%;
   max-width: 1600px;
   margin: 0 auto;
@@ -45,11 +44,13 @@
   color: white;
   text-decoration: none;
   padding: 0 5px;
+  opacity: 1;
 }
 
 .nav-links:hover {
   color: rgb(60, 60, 73);
   transition: all 0.2s ease-out;
+  opacity: 1;
 }
 
 .nav-links-btn {

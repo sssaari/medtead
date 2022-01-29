@@ -11,7 +11,7 @@ function NavbarHome() {
 
   return (
     <div>
-      <div className="nav-container">
+      <div className="nav-containerHome">
         <nav className="navbar">
           <Link to="/" id="navbar-logo">
             ÜMT

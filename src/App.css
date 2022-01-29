@@ -12,6 +12,7 @@
   max-width: 1440px;
   width: 100%;
   justify-self: center;
+  margin-top: 50px;
 }
 
 .link {
@@ -44,14 +45,17 @@
   bottom: 0;
   color: black;
   justify-content: center;
-  background-color: rgb(183, 195, 199);
-  opacity: 60%;
+  background-color: rgb(183, 195, 199, 0.7);
 }
 
 .footerBtnList {
   justify-content: space-evenly;
   padding-top: 10px;
   text-align: center;
+}
+
+.footerBtn:hover {
+  color: rgb(60, 60, 73);
 }
 
 .containerArticle {
@@ -85,12 +89,32 @@
   border-radius: 5px;
   margin: 10px;
   text-align: center;
+  padding: 10px;
+}
+
+.cardText {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.cardText .loeEdasi {
 }
 
 .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.025);
   transition: 0.5s;
   cursor: pointer;
+}
+
+.artTitle {
+  font-size: 16pt;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+.artPrevText {
+  font-size: 12pt;
 }
 
 /* .card-image {
@@ -127,12 +151,12 @@
 .cardHome {
   width: 500px;
   position: fixed;
-  margin-top: 20%;
-  max-width: 800px;
-  width: 80%;
+  margin-top: 5px;
+  max-width: 700px;
+  width: 95%;
   position: center;
   color: white;
-  padding: 30px 50px;
+  padding: 30px 30px;
 }
 
 .homePageTitle {
@@ -144,4 +168,19 @@
 h1 {
   text-align: center;
   justify-self: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.homepageBigname {
+  width: 100%;
+  background-color: rgb(183, 195, 199, 0.7);
+  text-align: center;
+  font-size: 50px;
+}
+
+.homepageBigtext {
+  padding-top: 90px;
+  padding-bottom: 30px;
+  color: white;
 }
