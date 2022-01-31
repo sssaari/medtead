@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
+import { Link, Router, Route } from "react-router-dom";
 import Footer from "../components/Footer";
-import { BrowserRouter } from "react-router-dom";
 import Navbar from "../components/Navbar/Navbar";
-import getArticle from "./Articles";
+import getArticle from "./ArticleTexts";
+import Artikkel from "./Artikkel";
 
 function Poordumised() {
   return (
@@ -15,15 +15,15 @@ function Poordumised() {
       <section className="container">
         {getArticle().map((element) => (
           <div className="card">
-            <div className="cardText">
-              <div className="card-image">{element.img}</div>
-              <div className="artTitle">{element.title}</div>
-              <div className="artPrevText">{element.preview}</div>
+            <Link to={"/Artikkel/" + element.articleID}>
+              <div className="cardText" onClick={console.log("artiklivajutus")}>
+                <div className="card-image">{element.img}</div>
+                <div className="artTitle">{element.title}</div>
+                <div className="artPrevText">{element.preview}</div>
 
-              <Link to="" className="loeEdasi">
-                LOE EDASI
-              </Link>
-            </div>
+                <div className="loeEdasi">LOE EDASI</div>
+              </div>
+            </Link>
           </div>
         ))}
       </section>

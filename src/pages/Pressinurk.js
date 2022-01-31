@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
-
 import Navbar from "../components/Navbar/Navbar";
+import getArticle from "./ArticleTexts";
 
 function Pressinurk() {
   return (
@@ -12,24 +12,24 @@ function Pressinurk() {
         <h1>PRESSINURK</h1>
       </div>
       <section className="container">
-        <div className="card">
-          <div className="card-image"></div>
-          <h2>Pealkiri</h2>
-          <p>Tekst</p>
-          <Link to="">LOE EDASI</Link>
-        </div>
-        <div className="card">
-          <div className="card-image"></div>
-          <h2>Pealkiri</h2>
-          <p>Tekst</p>
-          <Link to="">LOE EDASI</Link>
-        </div>
-        <div className="card">
-          <div className="card-image"></div>
-          <h2>Pealkiri</h2>
-          <p>Tekst</p>
-          <Link to="">LOE EDASI</Link>
-        </div>
+        {getArticle().map((element) => {
+          if (element.articleType === "pressinurk") {
+            return (
+              <div className="card">
+                <Link to={"/Artikkel/" + element.articleID}>
+                  <div className="cardText">
+                    <div className="card-image">{element.img}</div>
+                    <div className="artTitle">{element.title}</div>
+                    <div className="artPrevText">{element.preview}</div>
+                    <div className="loeEdasi">LOE EDASI</div>
+                  </div>
+                </Link>
+              </div>
+            );
+          } else {
+            return null;
+          }
+        })}
       </section>
       <Footer />
     </div>

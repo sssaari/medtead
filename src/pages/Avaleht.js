@@ -1,7 +1,5 @@
-import { Link, Route, Routes } from "react-router-dom";
 import NavbarHome from "../components/NavbarHome/NavbarHome";
 import FooterHome from "../components/FooterHome";
-import Navbar from "../components/Navbar/Navbar";
 
 function Avaleht() {
   return (
