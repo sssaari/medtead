@@ -7,8 +7,11 @@ function Pressinurk() {
   return (
     <div>
       <Navbar />
-      <img className="pageImg" src="pageImg.jpg" alt="" />
       <div>
+        <div className="pageImgContainer">
+          <img className="pageImg" src="pageImg.jpg" alt="" />
+        </div>
+
         <h1>PRESSINURK</h1>
       </div>
       <section className="container">

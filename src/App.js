@@ -7,6 +7,12 @@ import Infomaterjalid from "./pages/Infomaterjalid";
 import Kontakt from "./pages/Kontakt";
 import Pohikiri from "./pages/Pohikiri";
 import Artikkel from "./pages/Artikkel";
+import Who from "./pages/Infomaterjalid/WHO";
+import Kodukaid from "./pages/Infomaterjalid/kodukaid";
+import Huvitavat from "./pages/Infomaterjalid/huvitavatLugemist";
+import Videod from "./pages/Infomaterjalid/videod";
+import SeinastSeina from "./pages/Infomaterjalid/seinastSeina";
+import TeadusuuringuteLingid from "./pages/Infomaterjalid/teadusuuringuteLingid";
 
 function App() {
   return (
@@ -19,6 +25,16 @@ function App() {
         <Route path="/Infomaterjalid" exact element={<Infomaterjalid />} />
         <Route path="/Kontakt" exact element={<Kontakt />} />
         <Route path="/Pohikiri" exact element={<Pohikiri />} />
+        <Route path="/who-arstide-eetikakoodeks" exact element={<Who />} />
+        <Route
+          path="/lingid-teadusuuringutele"
+          exact
+          element={<TeadusuuringuteLingid />}
+        />
+        <Route path="/seinast-seina" exact element={<SeinastSeina />} />
+        <Route path="/videod" exact element={<Videod />} />
+        <Route path="/huvitavat-lugemist" exact element={<Huvitavat />} />
+        <Route path="/erinevaid-kodulehekulgi" exact element={<Kodukaid />} />
       </Routes>
     </div>
   );

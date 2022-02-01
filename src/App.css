@@ -8,6 +8,11 @@
   background-size: cover;
 }
 
+.pageImgContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .pageImg {
   max-width: 1440px;
   width: 100%;
@@ -188,4 +193,8 @@ h1 {
   padding-top: 90px;
   padding-bottom: 30px;
   color: white;
+}
+
+* {
+  font-family: "oxygen";
 }

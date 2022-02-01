@@ -8,8 +8,11 @@ function Poordumised() {
   return (
     <div>
       <Navbar />
-      <img className="pageImg" src="pageImg.jpg" alt="" />
+
       <div>
+        <div className="pageImgContainer">
+          <img className="pageImg" src="pageImg.jpg" alt="" />
+        </div>
         <h1>PÖÖRDUMISED</h1>
       </div>
       <section className="container">

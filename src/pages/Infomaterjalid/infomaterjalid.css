@@ -1,0 +1,46 @@
+.articleCardIM a {
+  text-decoration: none;
+  color: rgb(9, 6, 23);
+  list-style: ;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.articleCardIM a:hover {
+  color: rgb(140, 119, 156);
+  font-weight: bold;
+  transform: scale(1.025);
+  transition: 0.2s;
+}
+
+.articleCardIM {
+  background-color: whitesmoke;
+  position: center;
+  margin: 30px 50px 100px 50px;
+  padding: 20px 50px 30px 50px;
+  width: 90vw;
+  max-width: 1000px;
+  height: auto;
+  /*background-image: url("../../../public/raamatuhunnik.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+.articleCardIM.pdfArticle {
+  height: 90vh;
+}
+
+.videoContainer {
+  justify-content: center;
+  text-align: center;
+}
+
+.infoImg {
+  width: 250px;
+}
+
+.containerArticle {
+  justify-content: center;
+  width: 100%;
+}

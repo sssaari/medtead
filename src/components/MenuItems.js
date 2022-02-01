@@ -1,0 +1,32 @@
+export const MenuItems = [
+  {
+    title: "WHO arstide eetikakoodeks",
+    path: "/who-arstide-eetikakoodeks",
+    cName: "dropdown-link",
+  },
+  {
+    title: "Lingid teadusuuringutele",
+    path: "/lingid-teadusuuringutele",
+    cName: "dropdown-link",
+  },
+  {
+    title: "Seinast seina",
+    path: "/seinast-seina",
+    cName: "dropdown-link",
+  },
+  {
+    title: "Videod",
+    path: "/videod",
+    cName: "dropdown-link",
+  },
+  {
+    title: "Huvitavat lugemist",
+    path: "/huvitavat-lugemist",
+    cName: "dropdown-link",
+  },
+  {
+    title: "Erinevaid kodulehekülgi",
+    path: "/erinevaid-kodulehekulgi",
+    cName: "dropdown-link",
+  },
+];

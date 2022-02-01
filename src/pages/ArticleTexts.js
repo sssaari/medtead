@@ -13,7 +13,7 @@ function getArticle() {
           <strong>OLEME MURES EESTIMAA LASTE VAIMSE TERVISE PÄRAST</strong>
           <br />
           Eesti laste ja noorte vaimne tervis on ohus. Seda näitavad järgmised
-          faktid:
+          faktid:..
           <br />
         </p>
       ),
@@ -49,7 +49,6 @@ function getArticle() {
           söömishäired).” Võrreldes 2021. aasta esimese poolega sagenesid
           viimaste kuude jooksul laste kõned enesevigastamise ja{" "}
           <a href="https://pealinn.ee/2022/01/17/noortele-teevad-muret-kuberkius-vagivald-ja-valjapressimine/">
-            {" "}
             suitsiidimõtete pärast
           </a>
           . Meie muret laste vaimse tervise allakäigu pärast jagab ka möödunud
@@ -678,7 +677,9 @@ function getArticle() {
           Väga austatud härra Eesti Vabariigi President Alar Karis. Oleme grupp
           Eesti meedikuid ja teadlasi, kes püüab säilitada diskussiooni covid-19
           ravi ja profülaktika teemadel.Täname teid väga tasakaalustatud,
-          rahuliku ja hooliva üleskutse eest 22.oktoobril.
+          rahuliku ja hooliva üleskutse eest 22.oktoobril. Praegusel raskel ajal
+          oleme teinud ettepanekud käesoleva olukorra mõnede seisukohtade
+          korrigeerimiseks.
         </p>
       ),
       fullText: (

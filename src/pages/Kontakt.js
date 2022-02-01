@@ -5,8 +5,10 @@ function Kontakt() {
   return (
     <div>
       <Navbar />
-      <img className="pageImg" src="pageImg.jpg" alt="" />
       <div>
+        <div className="pageImgContainer">
+          <img className="pageImg" src="pageImg.jpg" alt="" />
+        </div>
         <div className="containerArticle">
           <div className="articleCard">
             <h1>KONTAKT</h1>

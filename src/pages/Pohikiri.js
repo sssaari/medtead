@@ -43,7 +43,7 @@ function Pohikiri() {
             elluviimisel.
             <br />
             MTÜ liikmete kohustusteks on maksta liikmemaksu (selle esialgne
-            suurus 30 euri aastas) ja osaleda üldkoosolekul.
+            suurus €30 aastas) ja osaleda üldkoosolekul.
             <br />
             Soovituslik on liikmetel aidata kaasa põhikirjaliste eesmärkide
             saavutamisele, säilitada oma tegevustes/mõttelaadis eetilisus,

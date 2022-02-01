@@ -1,9 +1,28 @@
 import "./style.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import Dropdown from "../Dropdown";
 
 function NavbarHome() {
   const [isActive, setActive] = useState(false);
+
+  const [dropdown, setDropdown] = useState(false);
+
+  const onMouseEnter = () => {
+    if (window.innerWidth < 768) {
+      setDropdown(false);
+    } else {
+      setDropdown(true);
+    }
+  };
+
+  const onMouseLeave = () => {
+    if (window.innerWidth < 768) {
+      setDropdown(false);
+    } else {
+      setDropdown(false);
+    }
+  };
 
   function handleToggle() {
     setActive(!isActive);
@@ -39,10 +58,11 @@ function NavbarHome() {
                 PRESSINURK
               </Link>
             </li>
-            <li>
+            <li onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
               <Link to="/Infomaterjalid" className="nav-links">
-                INFOMATERJALID
+                INFOMATERJALID <i className="fas fa-caret-down" />
               </Link>
+              {dropdown && <Dropdown />}
             </li>
             <li>
               <Link to="/Kontakt" className="nav-links">
