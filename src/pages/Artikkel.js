@@ -9,12 +9,14 @@ function Artikkel() {
   return (
     <div>
       <Navbar />
-      <img className="pageImg" src="pageImg.jpg" alt="" />
+      <div className="pageImgContainer">
+        <img className="pageImg" src="../../pageImg.jpg" alt="" />
+      </div>
       <div className="containerArticle">
         {getArticle().map((element) => {
           if (element.articleID === articleID) {
             return (
-              <div className="articleCard">
+              <div key={element.articleID} className="articleCard">
                 <div className="card-image">{element.img}</div>
                 <div className="artTitle">{element.title}</div>
                 <div className="artText">{element.fullText}</div>

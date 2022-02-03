@@ -19,8 +19,8 @@ function Kontakt() {
               <br />
             </p>
             <p>
-              <strong>Aadress:</strong> MTÜ aadress Saaremaa, Vanalõve küla ,
-              Leieri talu, 94318
+              <strong>Aadress:</strong> Saaremaa, Vanalõve küla , Leieri talu,
+              94318
               <br />
               <br />
             </p>

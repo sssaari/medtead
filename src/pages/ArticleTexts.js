@@ -798,74 +798,81 @@ function getArticle() {
           <br /> Loodame riigijuhtide tarkusele ja nende tasakaalustatud
           otsustele.
           <br />
-          <br />{" "}
-          <p>
-            {" "}
-            Lugupidamisega ja avatud diskussiooni ootuses,
-            <br />
-            <br /> Grupp: Eesti Meedikud ja Teadlased Avatud Diskussiooni Poolt
-            <br /> Allkirjastanud 56 ja 47 anonüümseks jääda soovinud meedikut
-            ja teadlast. Kokku 103 grupi liiget.
-            <br />
-            <br /> Alar Aab, arstiteadused PhD
-            <br /> Heli Goode, arst
-            <br /> Triin Eller-Pihelgas, arst-psühhiaater PhD
-            <br /> Kaiu Hallik, füsioterapeut
-            <br /> Tea Hook, õde
-            <br /> Tanja Iljasenko, Statistikaameti peametoodik, Msc
-            bioinformaatika
-            <br /> Helju Juhanson, anestesioloog-intensiivraviarst
-            <br /> Ruth Kaasen, õde
-            <br /> Elle Kalamägi, õde
-            <br /> Mare Kalm, õde
-            <br /> Aet Kanarbik, hambaarst
-            <br /> Viiu Karro, ämmaemand
-            <br /> Eveli Kask, õde
-            <br /> Külli Keel, ämmaemand
-            <br /> Pille Kilgi, anestesioloog-intensiivraviarst
-            <br /> Anti Kukkela arst- ortopeed
-            <br /> Piia Künnapuu, õde
-            <br /> Aili Kütt, ämmaemand
-            <br /> Aleksander Lammas - biolabori juhataja
-            <br /> Helen Lasn, perearst, PhD
-            <br /> Eliia Laats, füsioterapeut
-            <br /> Anneli Liivamägi-Hitrov, psühholoog
-            <br /> Sandra Liivrand, õde
-            <br /> Tiia Mardu, arst - radioloog
-            <br /> Merlin Mesak, ämmaemand
-            <br /> Pille Mättas, farmatseut
-            <br /> Meeme Mõttus, hambaarst
-            <br /> Marina Noskova, üliõpilane õe erialal
-            <br /> Viiu Paalme, molekulaarbioloog
-            <br /> Signe Pedaja, õde
-            <br /> Juta Peterson, hambaarst
-            <br /> Maire Piho, hambaarst
-            <br /> Mari Piigli, õde
-            <br /> Jevgeni Popakul, intensiivraviõde
-            <br /> Martin Ruumet, üldarst
-            <br /> Sergey Saadi, perearst
-            <br /> Kaari Saarma, molekulaarbioloogia MSc
-            <br /> Kadri Saarma, õde
-            <br /> Urmas Saarma, teadlane, molekulaarbioloog, PhD
-            <br /> Merike Seer, arst
-            <br /> Sirje Rüütel Boudinot, immunoloog, PhD
-            <br /> Riin Sildos, anestesioloog-intensiivraviarst
-            <br /> Virve Siirak, arst-õppejõud, MSc
-            <br /> Kristi Sims, ämmaemand
-            <br /> Margit Silla-Vunk, ämmaemand
-            <br /> Ülle Sommer, õde
-            <br /> Joona Sõsa, kiirabiõde-brigaadijuht
-            <br /> Toomas Talving, proviisor
-            <br /> Aivar Tilk, arst - uroloog
-            <br /> Kadri Tootmaa, arst-resident psühhiaatrias
-            <br /> Ines Vaide, arst - hematoloog
-            <br /> Maarja Valb, õde
-            <br /> Inna Varbola, farmatseut
-            <br /> Pille Varmann, arst-psühhiaater
-            <br /> Evelin Vatsa, perearst
-            <br /> Kärt Süvalep, õde
-            <br /> <br /> 20.10.2021 Eesti Vabariik
-          </p>
+          <br /> Lugupidamisega ja avatud diskussiooni ootuses,
+          <br />
+          <br /> Grupp: Eesti Meedikud ja Teadlased Avatud Diskussiooni Poolt
+          <br /> Allkirjastanud 56 ja 47 anonüümseks jääda soovinud meedikut ja
+          teadlast. Kokku 103 grupi liiget.
+          <br />
+          <br /> Alar Aab, arstiteadused PhD
+          <br /> Heli Goode, arst
+          <br /> Triin Eller-Pihelgas, arst-psühhiaater PhD
+          <br /> Kaiu Hallik, füsioterapeut
+          <br /> Tea Hook, õde
+          <br /> Tanja Iljasenko, Statistikaameti peametoodik, Msc
+          bioinformaatika
+          <br /> Helju Juhanson, anestesioloog-intensiivraviarst
+          <br /> Ruth Kaasen, õde
+          <br /> Elle Kalamägi, õde
+          <br /> Mare Kalm, õde
+          <br /> Aet Kanarbik, hambaarst
+          <br /> Viiu Karro, ämmaemand
+          <br /> Eveli Kask, õde
+          <br /> Külli Keel, ämmaemand
+          <br /> Pille Kilgi, anestesioloog-intensiivraviarst
+          <br /> Anti Kukkela arst- ortopeed
+          <br /> Piia Künnapuu, õde
+          <br /> Aili Kütt, ämmaemand
+          <br /> Aleksander Lammas - biolabori juhataja
+          <br /> Helen Lasn, perearst, PhD
+          <br /> Eliia Laats, füsioterapeut
+          <br /> Anneli Liivamägi-Hitrov, psühholoog
+          <br /> Sandra Liivrand, õde
+          <br /> Tiia Mardu, arst - radioloog
+          <br /> Merlin Mesak, ämmaemand
+          <br /> Pille Mättas, farmatseut
+          <br /> Meeme Mõttus, hambaarst
+          <br /> Marina Noskova, üliõpilane õe erialal
+          <br /> Viiu Paalme, molekulaarbioloog
+          <br /> Signe Pedaja, õde
+          <br /> Juta Peterson, hambaarst
+          <br /> Maire Piho, hambaarst
+          <br /> Mari Piigli, õde
+          <br /> Jevgeni Popakul, intensiivraviõde
+          <br /> Martin Ruumet, üldarst
+          <br /> Sergey Saadi, perearst
+          <br /> Kaari Saarma, molekulaarbioloogia MSc
+          <br /> Kadri Saarma, õde
+          <br /> Urmas Saarma, teadlane, molekulaarbioloog, PhD
+          <br /> Merike Seer, arst
+          <br /> Sirje Rüütel Boudinot, immunoloog, PhD
+          <br /> Riin Sildos, anestesioloog-intensiivraviarst
+          <br /> Virve Siirak, arst-õppejõud, MSc
+          <br /> Kristi Sims, ämmaemand
+          <br /> Margit Silla-Vunk, ämmaemand
+          <br /> Ülle Sommer, õde
+          <br /> Joona Sõsa, kiirabiõde-brigaadijuht
+          <br /> Toomas Talving, proviisor
+          <br /> Aivar Tilk, arst - uroloog
+          <br /> Kadri Tootmaa, arst-resident psühhiaatrias
+          <br /> Ines Vaide, arst - hematoloog
+          <br /> Maarja Valb, õde
+          <br /> Inna Varbola, farmatseut
+          <br /> Pille Varmann, arst-psühhiaater
+          <br /> Evelin Vatsa, perearst
+          <br /> Kärt Süvalep, õde
+          <br /> <br /> 20.10.2021 Eesti Vabariik
+          <br />
+          <br />
+          <a
+            target="_blank"
+            href="https://lounaeestlane.ee/eesti-meedikud-ja-teadlased-tegid-uhispoordumise-mis-seab-vaktsiinide-tohususe-kahtluse-alla/"
+          >
+            <em>
+              Eesti meedikud ja teadlased tegid ühispöördumise, mis seab
+              vaktsiinide tõhususe kahtluse alla - 23.10.2021
+            </em>
+          </a>
         </p>
       ),
       img: "",

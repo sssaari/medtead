@@ -1,32 +1,32 @@
 export const MenuItems = [
   {
     title: "Maailma Arstide Liidu eetikakoodeks",
-    path: "/wma-arstide-eetikakoodeks",
+    path: "/Infomaterjalid/wma-arstide-eetikakoodeks",
     cName: "dropdown-link",
   },
   {
     title: "Lingid teadusuuringutele",
-    path: "/lingid-teadusuuringutele",
+    path: "/Infomaterjalid/lingid-teadusuuringutele",
     cName: "dropdown-link",
   },
   {
     title: "Seinast seina",
-    path: "/seinast-seina",
+    path: "/Infomaterjalid/seinast-seina",
     cName: "dropdown-link",
   },
   {
     title: "Videod",
-    path: "/videod",
+    path: "/Infomaterjalid/videod",
     cName: "dropdown-link",
   },
   {
     title: "Huvitavat lugemist",
-    path: "/huvitavat-lugemist",
+    path: "/Infomaterjalid/huvitavat-lugemist",
     cName: "dropdown-link",
   },
   {
     title: "Erinevaid kodulehekülgi",
-    path: "/erinevaid-kodulehekulgi",
+    path: "/Infomaterjalid/erinevaid-kodulehekulgi",
     cName: "dropdown-link",
   },
 ];

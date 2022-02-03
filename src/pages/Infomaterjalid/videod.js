@@ -8,7 +8,7 @@ function Videod() {
       <Navbar />
       <div>
         <div className="pageImgContainer">
-          <img className="pageImg" src="pageImg.jpg" alt="" />
+          <img className="pageImg" src="../pageImg.jpg" alt="" />
         </div>
         <div className="containerArticle">
           <div className="articleCardIM">

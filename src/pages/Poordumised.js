@@ -2,7 +2,6 @@ import { Link, Router, Route } from "react-router-dom";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import getArticle from "./ArticleTexts";
-import Artikkel from "./Artikkel";
 
 function Poordumised() {
   return (
@@ -18,8 +17,8 @@ function Poordumised() {
       <section className="container">
         {getArticle().map((element) => (
           <div className="card">
-            <Link to={"/Artikkel/" + element.articleID}>
-              <div className="cardText" onClick={console.log("artiklivajutus")}>
+            <Link to={"/Poordumised/Artikkel/" + element.articleID}>
+              <div className="cardText">
                 <div className="card-image">{element.img}</div>
                 <div className="artTitle">{element.title}</div>
                 <div className="artPrevText">{element.preview}</div>
