@@ -14,19 +14,22 @@ function Kodukaid() {
         <div className="containerArticle">
           <div className="articleCardIM">
             <h1>Lingid kodulehekülgedele</h1>
-            <a href="https://mottekoda.ee/">
+            <a target="_blank" href="https://mottekoda.ee/">
               <li>MTÜ Mõttekoda Terve Laps - Terve Ühiskond</li>
             </a>
-            <a href="https://www.tekabinet.ee/funktsionaalne-meditsiin/">
+            <a
+              target="_blank"
+              href="https://www.tekabinet.ee/funktsionaalne-meditsiin/"
+            >
               <li>Teadliku Eluviisi Kabinet</li>
             </a>
-            <a href="https://collateralglobal.org/">
+            <a target="_blank" href="https://collateralglobal.org/">
               <li>
                 Collateral Global - Cultivating a better understanding of the
                 impact of the COVID-19 responses
               </li>
             </a>
-            <a href="https://www.teadusuudis.ee/">
+            <a target="_blank" href="https://www.teadusuudis.ee/">
               <li>Teadusuudised</li>
             </a>
           </div>

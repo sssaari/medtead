@@ -12,13 +12,15 @@ function Who() {
         </div>
         <div className="containerArticle">
           <div className="articleCardIM pdfArticle">
-            <h1>WHO arstide eetikakoodeks</h1>
-
-            <embed
-              src="../../pdfarticles/WHO arstide eetikakoodeks.pdf"
-              width="100%"
+            <h1>Maailma Arstide Liidu eetikakoodeks</h1>
+            <iframe
+              id="iframepdf"
+              title="WMAPdf"
+              className="pdfviewer"
+              src="../../pdfarticles/WMAarstideeetikakoodeks.pdf"
               height="90%"
-            ></embed>
+              width="100%"
+            ></iframe>
           </div>
         </div>
       </div>

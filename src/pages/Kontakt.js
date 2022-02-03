@@ -28,7 +28,12 @@ function Kontakt() {
               <strong>Arvelduskonto:</strong> a/a LHV EE587700771007269270
               <br />
               <br />
-              Aasta liikmemaks 30 EUR
+              <a
+                target="_blank"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdHMFfNsqjZ5Uyyag0Q9aBwuu8A-rMeLoK7cGWyMbY-kMmR5w/viewform"
+              >
+                <button className="liikmeavaldus">MTÜ liikmeavaldus</button>
+              </a>
               <br />
             </p>
           </div>

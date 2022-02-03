@@ -106,11 +106,11 @@
 .cardText .loeEdasi {
 }
 
-.card:hover {
+/*.card:hover {
   transform: scale(1.025);
   transition: 0.5s;
   cursor: pointer;
-}
+}*/
 
 .artTitle {
   font-size: 16pt;
@@ -160,7 +160,7 @@
 
 .cardHome {
   width: 500px;
-  position: fixed;
+  position: absolute;
   margin-top: 5px;
   max-width: 700px;
   width: 95%;
@@ -197,4 +197,19 @@ h1 {
 
 * {
   font-family: "oxygen";
+}
+
+.liikmeavaldus {
+  padding: 10px;
+  font-size: 12pt;
+  background-color: rgb(177, 182, 192);
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  font-weight: bold;
+}
+
+.liikmeavaldus:hover {
+  background-color: rgb(144, 150, 164);
+  cursor: pointer;
 }

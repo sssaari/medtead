@@ -15,15 +15,16 @@ function Videod() {
             <h1>Videod</h1>
             <div className="videoContainer">
               <iframe
-                width="560"
-                height="315"
+                className="video"
                 src="https://www.youtube.com/embed/qUlH5Zh05ac"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
-              <div>
+              <div className="videoText">
+                <br />
+                <br />
                 Eesti teadlaste ja immunoloogide kohtumine ajakirjanikega
                 27.09.2021
               </div>

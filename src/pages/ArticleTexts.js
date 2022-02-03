@@ -625,8 +625,10 @@ function getArticle() {
           <br />
           <br />
           <br />
-          Teabenõude osa B (lähtub Ravimiseaduses sätestatud ravimi kvaliteedi
-          tagamise nõuetest)
+          <strong>
+            Teabenõude osa B (lähtub Ravimiseaduses sätestatud ravimi kvaliteedi
+            tagamise nõuetest)
+          </strong>
           <br />
           <br />
           <u>
