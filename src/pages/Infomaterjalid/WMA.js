@@ -13,14 +13,24 @@ function Who() {
         <div className="containerArticle">
           <div className="articleCardIM pdfArticle">
             <h1>Maailma Arstide Liidu eetikakoodeks</h1>
-            <iframe
+            {/*<iframe
               id="iframepdf"
               title="WMAPdf"
               className="pdfviewer"
               src="../../pdfarticles/WMAarstideeetikakoodeks.pdf"
               height="90%"
               width="100%"
-            ></iframe>
+            ></iframe>*/}
+            <img
+              src="../../pdfarticles/WMAarstideeetikakoodeks-1.jpg"
+              alt=""
+              className="pdfImage"
+            ></img>
+            <img
+              src="../../pdfarticles/WMAarstideeetikakoodeks-2.jpg"
+              alt=""
+              className="pdfImage"
+            ></img>
           </div>
         </div>
       </div>

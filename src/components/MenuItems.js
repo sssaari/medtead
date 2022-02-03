@@ -1,7 +1,7 @@
 export const MenuItems = [
   {
     title: "Maailma Arstide Liidu eetikakoodeks",
-    path: "/who-arstide-eetikakoodeks",
+    path: "/wma-arstide-eetikakoodeks",
     cName: "dropdown-link",
   },
   {

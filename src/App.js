@@ -7,7 +7,7 @@ import Infomaterjalid from "./pages/Infomaterjalid";
 import Kontakt from "./pages/Kontakt";
 import Pohikiri from "./pages/Pohikiri";
 import Artikkel from "./pages/Artikkel";
-import Who from "./pages/Infomaterjalid/WHO";
+import Who from "./pages/Infomaterjalid/WMA";
 import Kodukaid from "./pages/Infomaterjalid/kodukaid";
 import Huvitavat from "./pages/Infomaterjalid/huvitavatLugemist";
 import Videod from "./pages/Infomaterjalid/videod";
@@ -25,7 +25,7 @@ function App() {
         <Route path="/Infomaterjalid" exact element={<Infomaterjalid />} />
         <Route path="/Kontakt" exact element={<Kontakt />} />
         <Route path="/Pohikiri" exact element={<Pohikiri />} />
-        <Route path="/who-arstide-eetikakoodeks" exact element={<Who />} />
+        <Route path="/wma-arstide-eetikakoodeks" exact element={<Who />} />
         <Route
           path="/lingid-teadusuuringutele"
           exact

@@ -58,7 +58,7 @@ function Navbar() {
               </Link>
             </li>
             <li onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-              <Link to="/Infomaterjalid" className="nav-links">
+              <Link to="" className="nav-links">
                 INFOMATERJALID <i className="fas fa-caret-down" />
               </Link>
               {dropdown && <Dropdown />}
