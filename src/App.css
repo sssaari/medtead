@@ -167,12 +167,31 @@
 .cardHome {
   width: 500px;
   position: absolute;
-  margin-top: 5px;
+  margin-top: 20px;
   max-width: 700px;
   width: 95%;
   position: center;
   color: white;
   padding: 30px 30px;
+}
+
+.langBut {
+  margin: 15px;
+  margin-bottom: 10px;
+  padding: 3px 7px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: rgb(174, 193, 209, 0.5);
+  color: rgb(255, 255, 255, 0.5);
+}
+
+.langBut:hover {
+  background-color: rgb(174, 193, 209);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.langButtons {
 }
 
 .homePageTitle {
@@ -218,4 +237,8 @@ h1 {
 .liikmeavaldus:hover {
   background-color: rgb(144, 150, 164);
   cursor: pointer;
+}
+
+li {
+  list-style: none;
 }

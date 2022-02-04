@@ -19,11 +19,9 @@ function Infomaterjalid() {
           <ul>
             {MenuItems.map((item, index) => {
               return (
-                <li key={index}>
-                  <Link className={item.cName} to={item.path}>
-                    {item.title}
-                  </Link>
-                </li>
+                <Link className={item.cName} to={item.path}>
+                  <li key={index}>{item.title.toUpperCase()}</li>
+                </Link>
               );
             })}
           </ul>

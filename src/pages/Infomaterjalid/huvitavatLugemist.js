@@ -15,10 +15,10 @@ function Huvitavat() {
           <div className="articleCardIM">
             <h1>Huvitavat lugemist</h1>
             <Link to="/Infomaterjalid/Epidemioloogidelt">
-              <li>Epidemioloogidelt</li>
+              <li>EPIDEMIOLOOGIDELT</li>
             </Link>
             <Link to="/Infomaterjalid/Muud-huvitavat">
-              <li>Muud huvitavat</li>
+              <li>MUUD HUVITAVAT</li>
             </Link>
           </div>
         </div>

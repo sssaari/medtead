@@ -11,11 +11,12 @@ import Who from "./pages/Infomaterjalid/WMA";
 import Kodukaid from "./pages/Infomaterjalid/kodukaid";
 import Huvitavat from "./pages/Infomaterjalid/huvitavatLugemist";
 import Videod from "./pages/Infomaterjalid/videod";
-import SeinastSeina from "./pages/Infomaterjalid/seinastSeina";
 import TeadusuuringuteLingid from "./pages/Infomaterjalid/teadusuuringuteLingid";
 import KoroonastEmotsioonideta from "./pages/Infomaterjalid/koroonastEmotsioonideta";
 import MassvaktsineerimisePooltJaVastu from "./pages/Infomaterjalid/massvaktsineerimisePooltJaVastu";
 import Epidemioloogidelt from "./pages/Infomaterjalid/Epidemioloogidelt";
+import MuudHuvitavat from "./pages/Infomaterjalid/MuudHuvitavat";
+import T6mbetuulesArstikunst from "./pages/Infomaterjalid/t6mbetuulesArstikunst";
 
 function App() {
   return (
@@ -41,11 +42,7 @@ function App() {
           exact
           element={<TeadusuuringuteLingid />}
         />
-        <Route
-          path="/Infomaterjalid/seinast-seina"
-          exact
-          element={<SeinastSeina />}
-        />
+
         <Route path="/Infomaterjalid/videod" exact element={<Videod />} />
         <Route
           path="/Infomaterjalid/huvitavat-lugemist"
@@ -53,14 +50,24 @@ function App() {
           element={<Huvitavat />}
         />
         <Route
+          path="/Infomaterjalid/Muud-huvitavat"
+          exact
+          element={<MuudHuvitavat />}
+        />
+        <Route
           path="/Infomaterjalid/erinevaid-kodulehekulgi"
           exact
           element={<Kodukaid />}
         />
         <Route
-          path="/Infomaterjalid/koroonast-emotsioonideta"
+          path="/Infomaterjalid/Muud-huvitavat/koroonast-emotsioonideta"
           exact
           element={<KoroonastEmotsioonideta />}
+        />
+        <Route
+          path="/Infomaterjalid/Muud-huvitavat/teaduse-ja-progressi-tombetuules-arstikunst"
+          exact
+          element={<T6mbetuulesArstikunst />}
         />
         <Route
           path="/Infomaterjalid/Epidemioloogidelt"

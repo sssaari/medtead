@@ -9,11 +9,7 @@ export const MenuItems = [
     path: "/Infomaterjalid/lingid-teadusuuringutele",
     cName: "dropdown-link",
   },
-  {
-    title: "Seinast seina",
-    path: "/Infomaterjalid/seinast-seina",
-    cName: "dropdown-link",
-  },
+
   {
     title: "Videod",
     path: "/Infomaterjalid/videod",
