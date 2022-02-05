@@ -17,6 +17,7 @@ import MassvaktsineerimisePooltJaVastu from "./pages/Infomaterjalid/massvaktsine
 import Epidemioloogidelt from "./pages/Infomaterjalid/Epidemioloogidelt";
 import MuudHuvitavat from "./pages/Infomaterjalid/MuudHuvitavat";
 import T6mbetuulesArstikunst from "./pages/Infomaterjalid/t6mbetuulesArstikunst";
+import JarvisteVastulause from "./pages/Infomaterjalid/jarvisteVastulause";
 
 function App() {
   return (
@@ -79,6 +80,11 @@ function App() {
           path="/Infomaterjalid/Epidemioloogidelt/massvaktsineerimise-poolt-ja-vastu"
           exact
           element={<MassvaktsineerimisePooltJaVastu />}
+        />
+        <Route
+          path="/Infomaterjalid/Epidemioloogidelt/antonina-jarviste-vastulause"
+          exact
+          element={<JarvisteVastulause />}
         />
       </Routes>
     </div>

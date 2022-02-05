@@ -192,6 +192,7 @@
 }
 
 .langButtons {
+  z-index: 5;
 }
 
 .homePageTitle {

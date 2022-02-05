@@ -43,7 +43,7 @@ function Epidemioloogidelt() {
                 Postimees
               </li>
             </a>
-            <Link to="/Infomaterjalid/Epidemioloogidelt/">
+            <Link to="/Infomaterjalid/Epidemioloogidelt/antonina-jarviste-vastulause">
               <li>
                 Antonina Järviste vastulause PM artiklile “Väikesed kirstud ja
                 suured arvud” 20.03.2019

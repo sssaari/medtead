@@ -1,7 +1,6 @@
 .articleCardIM a {
   text-decoration: none;
   color: rgb(9, 6, 23);
-  list-style: ;
   margin: 30px;
   font-size: 20px;
   display: block;
@@ -50,7 +49,6 @@
 
 .video {
   position: absolute;
-
   top: 0;
   left: 0;
   bottom: 0;
