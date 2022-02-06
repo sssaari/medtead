@@ -30,6 +30,10 @@
   background-size: cover;*/
 }
 
+.articleCardIM.lingid {
+  text-align: left;
+}
+
 .articleCardIM.pdfArticle {
   background-color: rgb(140, 119, 156, 0);
   text-align: center;

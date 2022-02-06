@@ -32,7 +32,7 @@ function Navbar() {
       <div className="nav-container">
         <nav className="navbar">
           <Link to="/" id="navbar-logo">
-            ÜMT
+            <img className="logoImg" src="heartLogo.png" alt="" />
           </Link>
           <div
             id="mobile-menu"

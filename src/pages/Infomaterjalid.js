@@ -13,7 +13,7 @@ function Infomaterjalid() {
         </div>
       </div>
       <div className="containerArticle">
-        <div className="articleCardIM">
+        <div className="articleCardIM lingid">
           <h1>INFOMATERJALID</h1>
           <div>
             {MenuItems.map((item, index) => {
