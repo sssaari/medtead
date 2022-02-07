@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import "./infomaterjalid.css";
+import pdfArticle from "../../static/Läbipõdemine-võrreldes-vaktsineerimisega-annab-parema-kaitse-koroonaviiruse-vastu.pdf";
 
 function Saarma2() {
   return (
@@ -16,7 +17,14 @@ function Saarma2() {
               Läbipõdemine võrreldes vaktsineerimisega annab parema kaitse
               koroonaviiruse vastu
             </h1>
-
+            <a
+              href={pdfArticle}
+              target="_blank"
+              rel="noreferrer"
+              className="pdfArticleLink"
+            >
+              Ava PDF
+            </a>
             <img
               src="../../pdfarticles/Läbipõdemine-võrreldes-vaktsineerimisega-annab-parema-kaitse-koroonaviiruse-vastu-1.jpg"
               alt=""

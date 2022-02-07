@@ -9,6 +9,11 @@ export const MenuItems = [
     path: "/Infomaterjalid/lingid-teadusuuringutele",
     cName: "dropdown-link",
   },
+  {
+    title: "Ravisoovitused",
+    path: "/Infomaterjalid/ravisoovitused",
+    cName: "dropdown-link",
+  },
 
   {
     title: "Videod",

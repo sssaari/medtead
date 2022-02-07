@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import "./infomaterjalid.css";
+import pdfArticle from "../../static/Tervete-laste-vaktsineerimine-Covid-19-suhtes-ei-ole-soovitav_251121_Teadusuudis.pdf";
 
 function Saarma3() {
   return (
@@ -16,7 +17,14 @@ function Saarma3() {
               Laste vaktsineerimise teemaline arutelu Riigikogu
               sotsiaalkomisjoni istungil 16.11.2021
             </h1>
-
+            <a
+              href={pdfArticle}
+              target="_blank"
+              rel="noreferrer"
+              className="pdfArticleLink"
+            >
+              Ava PDF
+            </a>
             <img
               src="../../pdfarticles/Tervete-laste-vaktsineerimine-Covid-19-suhtes-ei-ole-soovitav_251121_Teadusuudis-01.jpg"
               alt=""

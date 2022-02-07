@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import "./infomaterjalid.css";
+import pdfArticle from "../../static/Covid-19-läbipõdenuid-diskrimineeritakse-alusetult_071221.pdf";
 
 function Saarma4() {
   return (
@@ -13,7 +14,14 @@ function Saarma4() {
         <div className="containerArticle">
           <div className="articleCardIM pdfArticle">
             <h1>Covid-19 läbipõdenuid diskrimineeritakse alusetult</h1>
-
+            <a
+              href={pdfArticle}
+              target="_blank"
+              rel="noreferrer"
+              className="pdfArticleLink"
+            >
+              Ava PDF
+            </a>
             <img
               src="../../pdfarticles/Covid-19-läbipõdenuid-diskrimineeritakse-alusetult_071221-1.jpg"
               alt=""
