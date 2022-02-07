@@ -18,6 +18,10 @@ import Epidemioloogidelt from "./pages/Infomaterjalid/Epidemioloogidelt";
 import MuudHuvitavat from "./pages/Infomaterjalid/MuudHuvitavat";
 import T6mbetuulesArstikunst from "./pages/Infomaterjalid/t6mbetuulesArstikunst";
 import JarvisteVastulause from "./pages/Infomaterjalid/jarvisteVastulause";
+import Saarma1 from "./pages/Infomaterjalid/Saarma1";
+import Saarma2 from "./pages/Infomaterjalid/Saarma2";
+import Saarma3 from "./pages/Infomaterjalid/Saarma3";
+import Saarma4 from "./pages/Infomaterjalid/Saarma4";
 
 function App() {
   return (
@@ -85,6 +89,26 @@ function App() {
           path="/Infomaterjalid/Epidemioloogidelt/antonina-jarviste-vastulause"
           exact
           element={<JarvisteVastulause />}
+        />
+        <Route
+          path="/Infomaterjalid/Kaari-Saarmalt/pressikonverents-eesti-teadlaste-ja-immunoloogidega-27.09.21"
+          exact
+          element={<Saarma1 />}
+        />
+        <Route
+          path="/Infomaterjalid/Kaari-Saarmalt/labipodemine-vorreldes-vaktsineerimisega-annab-parema-kaitse-koroonaviiruse-vastu"
+          exact
+          element={<Saarma2 />}
+        />
+        <Route
+          path="/Infomaterjalid/Kaari-Saarmalt/tervete-laste-vaktsineerimine-covid-19-suhtes-ei-ole-soovitatav"
+          exact
+          element={<Saarma3 />}
+        />
+        <Route
+          path="/Infomaterjalid/Kaari-Saarmalt/covid-19-labipodenuid-diskrimineeritakse-alusetult"
+          exact
+          element={<Saarma4 />}
         />
       </Routes>
     </div>

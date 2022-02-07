@@ -711,6 +711,44 @@ function getArticle() {
           <br /> austusega
           <br />
           <br /> 103 allakirjutanut
+          <br />
+          <br />
+          <br />
+          <br />
+          <strong>Vastus:</strong>
+          <br />
+          <br />
+          <em>
+            Austatud ...
+            <br />
+            <br />
+            digitaalallkirja kuupäev nr 2.6-2/3229-2
+            <br />
+            <br />
+            Vabariigi Presidendi ülesandel tänan Teid 24. oktoobri 2021
+            pöördumise eest. Riigipea on korduvalt öelnud, et on teaduse usku ja
+            rõhutanud asjaliku diskussiooni vajalikkust ka kõige keerulisemate
+            teemade puhul. Erinevatel kohtumistel on ta soovinud kuulda ka
+            vastandlikke arvamusi, neid halvustamata või põlu alla panemata.
+            Oskus ja kannatlikkus kuulata erinevaid arvamusi on rõhutatult
+            vajalikud keerulisel koroonaajal, kus meie teadmised täienevad ja ka
+            muutuvad pidevalt.
+            <br />
+            <br />
+            Soovime teile rahulikku lähenevat aastavahetust. <br />
+            <br />
+            Lugupidamisega
+            <br />
+            (allkirjastatud digitaalselt)
+            <br />
+            Peep Jahilo <br />
+            direktor
+            <br />
+            <br />
+            26.nov.2021
+          </em>
+          <br />
+          <br />
         </p>
       ),
       img: "",

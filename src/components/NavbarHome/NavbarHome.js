@@ -2,6 +2,7 @@ import "./style.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import Dropdown from "../Dropdown";
+import heart from "../../static/heartLogo.png";
 
 function NavbarHome() {
   const [isActive, setActive] = useState(false);
@@ -33,7 +34,7 @@ function NavbarHome() {
       <div className="nav-containerHome">
         <nav className="navbar">
           <Link to="/" id="navbar-logo">
-            <img className="logoImg" src="heartLogo.png" alt="" />
+            <img className="logoImg" src={heart} alt="" />
           </Link>
           <div
             id="mobile-menu"

@@ -1,6 +1,9 @@
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import "./infomaterjalid.css";
+import { Link } from "react-router-dom";
+import { Component } from "react";
+import WMAkoodeks from "../../static/WMAarstideeetikakoodeks.pdf";
 
 function Who() {
   return (
@@ -24,6 +27,9 @@ function Who() {
               alt=""
               className="pdfImage"
             ></img>
+            <a href={WMAkoodeks} target="_blank">
+              Ava PDF
+            </a>
           </div>
         </div>
       </div>
