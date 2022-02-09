@@ -19,7 +19,17 @@ function Pressinurk() {
           if (element.articleType === "pressinurk") {
             return (
               <div className="card">
-                <Link to={"/Artikkel/" + element.articleID}>
+                <Link
+                  to={
+                    "" +
+                    element.title
+                      .toLowerCase()
+                      .replaceAll(" ", "-")
+                      .replaceAll(".", "-")
+                      .replaceAll("ä", "a")
+                      .replaceAll("õ", "o")
+                  }
+                >
                   <div className="cardText">
                     <div className="card-image">{element.img}</div>
                     <div className="artTitle">{element.title}</div>

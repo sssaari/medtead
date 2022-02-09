@@ -101,6 +101,10 @@
     transition: all 0.5s ease;
   }
 
+  .logoImg {
+    height: 35px;
+  }
+
   #navbar-logo {
     margin-left: 20px;
   }

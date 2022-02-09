@@ -1,9 +1,9 @@
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar/Navbar";
-import "./infomaterjalid.css";
+
 import pdfArticle from "../../static/Tervete-laste-vaktsineerimine-Covid-19-suhtes-ei-ole-soovitav_251121_Teadusuudis.pdf";
 
-function Saarma3() {
+function Pressinurk2() {
   return (
     <div>
       <Navbar />
@@ -98,4 +98,4 @@ function Saarma3() {
   );
 }
 
-export default Saarma3;
+export default Pressinurk2;

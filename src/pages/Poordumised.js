@@ -15,19 +15,25 @@ function Poordumised() {
         <h1>PÖÖRDUMISED</h1>
       </div>
       <section className="container">
-        {getArticle().map((element) => (
-          <div className="card">
-            <Link to={"/Poordumised/Artikkel/" + element.articleID}>
-              <div className="cardText">
-                <div className="card-image">{element.img}</div>
-                <div className="artTitle">{element.title}</div>
-                <div className="artPrevText">{element.preview}</div>
+        {getArticle().map((element) => {
+          if (element.articleType === "poordumine") {
+            return (
+              <div className="card">
+                <Link to={"/Poordumised/Artikkel/" + element.articleID}>
+                  <div className="cardText">
+                    <div className="card-image">{element.img}</div>
+                    <div className="artTitle">{element.title}</div>
+                    <div className="artPrevText">{element.preview}</div>
 
-                <div className="loeEdasi">LOE EDASI</div>
+                    <div className="loeEdasi">LOE EDASI</div>
+                  </div>
+                </Link>
               </div>
-            </Link>
-          </div>
-        ))}
+            );
+          } else {
+            return null;
+          }
+        })}
       </section>
       <Footer />
     </div>

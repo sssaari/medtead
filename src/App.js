@@ -19,9 +19,13 @@ import Epidemioloogidelt from "./pages/Infomaterjalid/Epidemioloogidelt";
 import MuudHuvitavat from "./pages/Infomaterjalid/MuudHuvitavat";
 import T6mbetuulesArstikunst from "./pages/Infomaterjalid/t6mbetuulesArstikunst";
 import JarvisteVastulause from "./pages/Infomaterjalid/jarvisteVastulause";
-import Saarma1 from "./pages/Infomaterjalid/Saarma1";
+import Pressinurk1 from "./pages/PRESSINURK/Pressinurk1";
+import Pressinurk2 from "./pages/PRESSINURK/Pressinurk2";
+import Pressinurk3 from "./pages/PRESSINURK/Pressinurk3";
+import Pressinurk4 from "./pages/PRESSINURK/Pressinurk4";
+import Pressinurk5 from "./pages/PRESSINURK/Pressinurk5";
 import Saarma2 from "./pages/Infomaterjalid/Saarma2";
-import Saarma3 from "./pages/Infomaterjalid/Saarma3";
+
 import Saarma4 from "./pages/Infomaterjalid/Saarma4";
 import Saarmalt from "./pages/Infomaterjalid/Saarmalt";
 
@@ -102,20 +106,36 @@ function App() {
           element={<JarvisteVastulause />}
         />
         <Route
-          path="/Infomaterjalid/Kaari-Saarmalt/pressikonverents-eesti-teadlaste-ja-immunoloogidega-27.09.21"
+          path="/Pressinurk/pressikonverents-eesti-teadlaste-ja-immunoloogidega-27-09-2021"
           exact
-          element={<Saarma1 />}
+          element={<Pressinurk1 />}
+        />
+        <Route
+          path="/Pressinurk/laste-vaktsineerimise-teemaline-arutelu-riigikogu-sotsiaalkomisjoni-istungil-16-11-2021"
+          exact
+          element={<Pressinurk2 />}
+        />
+        <Route
+          path="/Pressinurk/covid-19-labipodenute-tunnustamine"
+          exact
+          element={<Pressinurk3 />}
+        />
+        <Route
+          path="/Pressinurk/istung-riigikogus-laste-vaktsineerimise-teemal-08-02-2022"
+          exact
+          element={<Pressinurk4 />}
+        />
+        <Route
+          path="/Pressinurk/tervete-laste-vaktsineerimine-covid-19-suhtes-ei-ole-soovitatav-08-02-2022"
+          exact
+          element={<Pressinurk5 />}
         />
         <Route
           path="/Infomaterjalid/Kaari-Saarmalt/labipodemine-vorreldes-vaktsineerimisega-annab-parema-kaitse-koroonaviiruse-vastu"
           exact
           element={<Saarma2 />}
         />
-        <Route
-          path="/Infomaterjalid/Kaari-Saarmalt/tervete-laste-vaktsineerimine-covid-19-suhtes-ei-ole-soovitatav"
-          exact
-          element={<Saarma3 />}
-        />
+
         <Route
           path="/Infomaterjalid/Kaari-Saarmalt/covid-19-labipodenuid-diskrimineeritakse-alusetult"
           exact

@@ -1,9 +1,9 @@
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar/Navbar";
-import "./infomaterjalid.css";
+
 import pdfArticle from "../../static/Pressikonverents-Eesti-teadlaste-ja-immunoloogidega-27.09.21.pdf";
 
-function Saarma1() {
+function Pressinurk1() {
   return (
     <div>
       <Navbar />
@@ -14,7 +14,7 @@ function Saarma1() {
         <div className="containerArticle">
           <div className="articleCardIM pdfArticle">
             <h1>
-              Pressikonverents Eesti teadlaste ja immunoloogidega 27.09.21
+              Pressikonverents Eesti teadlaste ja immunoloogidega 27.09.2021
             </h1>
             <a
               href={pdfArticle}
@@ -47,4 +47,4 @@ function Saarma1() {
   );
 }
 
-export default Saarma1;
+export default Pressinurk1;

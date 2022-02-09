@@ -33,7 +33,7 @@ function Avaleht() {
             <br />
             The aim of our NPO is to author and publish balanced public letters
             and addresses, submit data requests to government offices, launch
-            popular initiatives, hold seminars, conferences and press
+            people's initiatives, hold seminars, conferences and press
             conferences.
             <br />
             <br />

@@ -1,5 +1,112 @@
 function getArticle() {
   return [
+    /* {
+        articleID: "0000x",
+        articleType: "",
+        title: "",
+        preview: "",
+        fullText: "",
+        img: "",
+        references: "",
+      },*/
+    {
+      articleID: "00009",
+      articleType: "pressinurk",
+      title:
+        "Tervete laste vaktsineerimine Covid-19 suhtes ei ole soovitatav 08.02.2022",
+      preview: (
+        <p>
+          Meditsiiniline sekkumine – vaktsiin või ravim – on põhjendatud ja
+          tõenduspõhine, kui:
+          <br />
+          1) Seda on vaja.
+          <br />
+          2) Sel on toime.
+          <br />
+          3) See on piisavalt ohutu. Vaktsiini antud kasu peab olema suurem kui
+          sellega kaasnev risk lapsele endale.
+          <br />
+        </p>
+      ),
+      fullText: "",
+      img: "",
+      references: "",
+    },
+    {
+      articleID: "00008",
+      articleType: "pressinurk",
+      title: "Istung Riigikogus laste vaktsineerimise teemal 08.02.2022",
+      preview:
+        "8. veebruaril enne avalikku sotsiaalkomisjoni istungit on saadetud vä lja alljärgneva sisuga e-kiri ja artikkel (eraldi failina koduleheküljel) kõikidele Riigikogu liikmetele (sh sotsiaalkomisjoni liikmetele), Valitsuse liikmetele, endise ja praeguse Teadusnõukoja liikmetele, Terviseametile, Ravimiametile, Haigekassale, ministeeriumitele, Eesti perearstide Seltsile, Arstide liidule, Õiguskantslerile ning paljudele perearstidele, arstidele ja teadlastele.",
+      fullText: "",
+      img: "",
+      references: "",
+    },
+    {
+      articleID: "00007",
+      articleType: "pressinurk",
+      title: "Covid-19 läbipõdenute tunnustamine",
+      preview: (
+        <p>
+          <strong>
+            MTÜ Ühinenud Meedikud ja Teadlased seisukoht
+            <br /> jaanuar 2022
+          </strong>
+          <br />
+          Viirushaiguse läbipõdemine on märk sellest, et inimene on viirusega
+          hakkama saanud ja suure tõenäosusega enam (raskelt) ei haigestu.
+          Läbipõdenute sundimine vaktsineerimiseks või nende normaalse elu
+          piiramine on põhjendamatu.
+          <br />
+          Piirangud, mille eesmärk oli kaitsta vaktsineerimata isikuid,
+          puudutasid tarbetult ka läbipõdenuid, kellel puudub vajadus
+          vaktsineerimisest saadavale lisakaitsele.
+        </p>
+      ),
+      fullText: "",
+      img: "",
+      references: "",
+    },
+    {
+      articleID: "00006",
+      articleType: "pressinurk",
+      title:
+        "Laste vaktsineerimise teemaline arutelu Riigikogu sotsiaalkomisjoni istungil 16.11.2021",
+      preview: (
+        <p>
+          Rahvaalgatus "Peatage Covid-19 massvaktsineerimine laste ja noorte
+          peal (nooremad kui 25 a.)” kogus septembris 2021 enam kui 20 000
+          allkirja. Rahvaalgatuse looja, MTÜ Laste Tervise ja Heaolu Kaitseks
+          pöördus sõltumatute teadlaste Alar Aabi ja Kaari Saarma poole palvega
+          põhjendada teaduspõhiselt rahvaalgatuse seisukohti Riigikogu
+          sotsiaalkomisjoni istungil 16.11.2021.
+        </p>
+      ),
+      fullText: "",
+      img: "",
+      references: "",
+    },
+    {
+      articleID: "00005",
+      articleType: "pressinurk",
+      title: "Pressikonverents Eesti teadlaste ja immunoloogidega 27.09.2021",
+      preview: (
+        <p>
+          <strong>
+            Läbipõdenute ja tervete laste vaktsineerimine pole vajalik ega
+            põhjendatud
+          </strong>
+          <br />
+          Esmaspäeval, 27.09.21 Tallinnas aset leidnud pressikonverentsil
+          vastasid Eesti teadlased ja immunoloogid päevakajalistele küsimustele
+          seoses laste vaktsineerimisega ja läbipõdemisest saadava immuunsusega
+          SARS-CoV-2 vastu.
+        </p>
+      ),
+      fullText: "",
+      img: "",
+      references: "",
+    },
     {
       articleID: "00004",
       articleType: "poordumine",
@@ -916,16 +1023,6 @@ function getArticle() {
       img: "",
       references: "",
     },
-
-    /* {
-        articleID: "0000x",
-        articleType: "",
-        title: "",
-        preview: "",
-        fullText: "",
-        img: "",
-        references: "",
-      },*/
   ];
 }
 
