@@ -23,6 +23,12 @@ function MuudHuvitavat() {
                 2021
               </li>
             </Link>
+            <Link to="/Infomaterjalid/Muud-huvitavat/kuidas-disainida-ohutut-vaktsiini">
+              <li>
+                Maarja Lillemäe - Kuidas disainida ohutut vaktsiini? - veebruar
+                2022
+              </li>
+            </Link>
           </div>
         </div>
       </div>

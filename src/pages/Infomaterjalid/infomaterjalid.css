@@ -30,6 +30,10 @@
   background-size: cover;*/
 }
 
+#hepatiidijoonis {
+  width: 90%;
+}
+
 .articleCardIM.lingid {
   max-width: 800px;
   text-align: left;
@@ -75,8 +79,20 @@
 .containerArticle {
   justify-content: center;
   width: 100%;
+  padding: 0px 0px 0px 0px;
 }
 
 .pdfImage {
   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .articleCardIM.pdfArticle {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100vw;
+  }
+  #hepatiidijoonis {
+    width: 100%;
+  }
 }

@@ -16,7 +16,9 @@ function Who() {
         <div className="containerArticle">
           <div className="articleCardIM pdfArticle">
             <h1>Maailma Arstide Liidu eetikakoodeks</h1>
-
+            <a href={WMAkoodeks} target="_blank">
+              Ava PDF
+            </a>
             <img
               src="../../pdfarticles/WMAarstideeetikakoodeks-1.jpg"
               alt=""
@@ -27,9 +29,6 @@ function Who() {
               alt=""
               className="pdfImage"
             ></img>
-            <a href={WMAkoodeks} target="_blank">
-              Ava PDF
-            </a>
           </div>
         </div>
       </div>

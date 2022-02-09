@@ -14,20 +14,21 @@ function Epidemioloogidelt() {
         <div className="containerArticle">
           <div className="articleCardIM">
             <h1>Epidemioloogidelt</h1>
-            <Link to="/Infomaterjalid/Epidemioloogidelt/">
+            <Link to="/Infomaterjalid/Epidemioloogidelt/miks-vaktsineeritakse-imikuid-neile-ebavajaliku-B-hepatiidi-vaktsiiniga?">
               <li>
                 Antonina Järviste - Miks vaktsineeritakse imikuid neile
                 ebavajaliku B-hepatiidi vaktsiiniga? - 01.03.2018
-                https://www.telegram.ee/toit-ja-tervis/40-aastase-staaziga-epidemioloog-miks-vaktsineeritakse-imikuid-neile-ebavajaliku-b-hepatiidi-vaktsiiniga
               </li>
             </Link>
-            <Link to="/Infomaterjalid/Epidemioloogidelt/">
+            <a
+              target="blank"
+              href="https://arhiiv.saartehaal.ee/2018/03/28/massvaktsineerimist-ei-ole-tarvis/"
+            >
               <li>
                 Antonina Järviste - Massvaktsineerimist ei ole tarvis -
                 28.03.2018 Saarte Hääl
-                https://arhiiv.saartehaal.ee/2018/03/28/massvaktsineerimist-ei-ole-tarvis/
               </li>
-            </Link>
+            </a>
             <Link to="/Infomaterjalid/Epidemioloogidelt/massvaktsineerimise-poolt-ja-vastu">
               <li>
                 Massvaktsineerimise poolt ja vastu - 05.04.2018

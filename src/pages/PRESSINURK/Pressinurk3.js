@@ -1,7 +1,7 @@
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 
-import pdfArticle from "../../static/COVID-19 läbipõdenute tunnustamine. MTÜ Ühinenud Meedikud ja Teadlased seisukoht.pdf";
+import pdfArticle from "../../static/COVID-19 läbipõdenute tunnustamine - MTÜ Ühinenud Meedikud ja Teadlased seisukoht.pdf";
 
 function Pressinurk3() {
   return (

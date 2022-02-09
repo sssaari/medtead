@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import "./infomaterjalid.css";
+import pdfArticle from "../../static/Teaduse ja progressi tõmbetuules arstikunst.pdf";
 
 function T6mbetuulesArstikunst() {
   return (
@@ -15,6 +16,14 @@ function T6mbetuulesArstikunst() {
             <h1>Teaduse ja progressi tõmbetuules arstikunst</h1>
             <h3>
               <em>oktoober 2021</em>
+              <a
+                href={pdfArticle}
+                target="_blank"
+                rel="noreferrer"
+                className="pdfArticleLink"
+              >
+                Ava PDF
+              </a>
             </h3>
 
             <img
