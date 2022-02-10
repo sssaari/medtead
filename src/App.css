@@ -103,14 +103,11 @@
   transform: translateY(-50%);
 }
 
-.cardText .loeEdasi {
-}
-
-/*.card:hover {
+.loeEdasi:hover {
   transform: scale(1.025);
   transition: 0.5s;
   cursor: pointer;
-}*/
+}
 
 .artTitle {
   font-size: 16pt;

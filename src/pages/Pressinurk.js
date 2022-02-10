@@ -25,7 +25,7 @@ function Pressinurk() {
                   <div className="artPrevText">{element.preview}</div>
                   <Link
                     to={
-                      "" +
+                      "/Pressinurk/" +
                       element.title
                         .toLowerCase()
                         .replaceAll(" ", "-")
