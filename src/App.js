@@ -86,11 +86,11 @@ function App() {
           exact
           element={<T6mbetuulesArstikunst />}
         />
-        <Route
+        {/* <Route
           path="/Infomaterjalid/Muud-huvitavat/kuidas-disainida-ohutut-vaktsiini"
           exact
           element={<KuidasDisainida />}
-        />
+        /> */}
         <Route
           path="/Infomaterjalid/Kaari-Saarmalt"
           exact
