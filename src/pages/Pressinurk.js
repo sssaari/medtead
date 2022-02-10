@@ -19,24 +19,25 @@ function Pressinurk() {
           if (element.articleType === "pressinurk") {
             return (
               <div className="card">
-                <Link
-                  to={
-                    "" +
-                    element.title
-                      .toLowerCase()
-                      .replaceAll(" ", "-")
-                      .replaceAll(".", "-")
-                      .replaceAll("ä", "a")
-                      .replaceAll("õ", "o")
-                  }
-                >
-                  <div className="cardText">
-                    <div className="card-image">{element.img}</div>
-                    <div className="artTitle">{element.title}</div>
-                    <div className="artPrevText">{element.preview}</div>
-                    <div className="loeEdasi">LOE EDASI</div>
-                  </div>
-                </Link>
+                <div className="cardText">
+                  <div className="card-image">{element.img}</div>
+                  <div className="artTitle">{element.title}</div>
+                  <div className="artPrevText">{element.preview}</div>
+                  <Link
+                    to={
+                      "" +
+                      element.title
+                        .toLowerCase()
+                        .replaceAll(" ", "-")
+                        .replaceAll(".", "-")
+                        .replaceAll("ä", "a")
+                        .replaceAll("õ", "o")
+                    }
+                    className="loeEdasi"
+                  >
+                    LOE EDASI
+                  </Link>
+                </div>
               </div>
             );
           } else {

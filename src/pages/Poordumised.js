@@ -19,15 +19,19 @@ function Poordumised() {
           if (element.articleType === "poordumine") {
             return (
               <div className="card">
-                <Link to={"/Poordumised/Artikkel/" + element.articleID}>
-                  <div className="cardText">
-                    <div className="card-image">{element.img}</div>
-                    <div className="artTitle">{element.title}</div>
-                    <div className="artPrevText">{element.preview}</div>
+                <div className="cardText">
+                  <div className="card-image">{element.img}</div>
+                  <div className="artTitle">{element.title}</div>
+                  <div className="artPrevText">{element.preview}</div>
 
-                    <div className="loeEdasi">LOE EDASI</div>
-                  </div>
-                </Link>
+                  <Link
+                    to={"/Poordumised/Artikkel/" + element.articleID}
+                    className="loeEdasi"
+                  >
+                    {" "}
+                    LOE EDASI
+                  </Link>
+                </div>
               </div>
             );
           } else {
