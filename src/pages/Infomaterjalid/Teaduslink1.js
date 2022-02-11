@@ -28,7 +28,6 @@ function Teaduslink1() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

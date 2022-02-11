@@ -76,7 +76,6 @@ function Epidemioloogidelt() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

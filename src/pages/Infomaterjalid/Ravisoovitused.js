@@ -14,11 +14,9 @@ function Ravisoovitused() {
         <div className="containerArticle">
           <div className="articleCardIM">
             <h1>Ravisoovitused</h1>
-            
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

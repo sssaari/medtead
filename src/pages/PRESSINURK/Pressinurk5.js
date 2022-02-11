@@ -139,7 +139,6 @@ function Pressinurk5() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

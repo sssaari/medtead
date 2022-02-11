@@ -26,7 +26,6 @@ function Huvitavat() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

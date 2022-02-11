@@ -28,7 +28,6 @@ function Poordumised() {
                     to={"/Poordumised/Artikkel/" + element.articleID}
                     className="loeEdasi"
                   >
-                    {" "}
                     LOE EDASI
                   </Link>
                 </div>

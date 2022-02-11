@@ -26,7 +26,6 @@ function MuudHuvitavat() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

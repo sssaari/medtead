@@ -137,8 +137,6 @@ function JarvisteVastulause() {
           </p>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 }

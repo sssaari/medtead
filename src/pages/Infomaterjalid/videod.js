@@ -54,7 +54,6 @@ function Videod() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

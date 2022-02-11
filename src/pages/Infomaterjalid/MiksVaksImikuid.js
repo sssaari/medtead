@@ -313,7 +313,7 @@ function MiksVaksImikuid() {
         </div>
       </div>
 
-      <Footer />
+      
     </div>
   );
 }

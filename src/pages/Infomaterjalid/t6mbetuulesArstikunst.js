@@ -69,7 +69,6 @@ function T6mbetuulesArstikunst() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

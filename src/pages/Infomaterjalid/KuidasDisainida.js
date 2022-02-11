@@ -152,8 +152,6 @@ function KuidasDisainida() {
           </p>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 }

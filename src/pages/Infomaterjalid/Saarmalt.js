@@ -28,7 +28,6 @@ function Saarmalt() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

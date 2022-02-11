@@ -27,8 +27,6 @@ function Artikkel() {
           }
         })}
       </div>
-
-      <Footer />
     </div>
   );
 }

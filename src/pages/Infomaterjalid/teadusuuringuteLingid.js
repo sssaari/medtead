@@ -29,7 +29,6 @@ function TeadusuuringuteLingid() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

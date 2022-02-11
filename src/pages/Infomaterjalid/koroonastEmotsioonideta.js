@@ -120,7 +120,7 @@ function KoroonastEmotsioonideta() {
           </div>
         </div>
       </div>
-      <Footer />
+      
     </div>
   );
 }

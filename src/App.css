@@ -103,10 +103,21 @@
   transform: translateY(-50%);
 }
 
+.loeEdasi {
+  color: black;
+  text-decoration: none;
+  background-color: rgb(174, 193, 209);
+  padding: 15px 20px;
+  display: block;
+  margin: 20px 50px;
+}
+
 .loeEdasi:hover {
-  transform: scale(1.025);
+  transform: scale(1.07);
   transition: 0.5s;
   cursor: pointer;
+  color: white;
+  background-color: rgb(138, 146, 152);
 }
 
 .artTitle {
@@ -144,15 +155,6 @@
 
 .card p {
   padding: 10px;
-}
-
-.card .loeEdasi {
-  color: black;
-  text-decoration: none;
-  background-color: rgb(174, 193, 209);
-  padding: 15px 20px;
-  display: block;
-  margin: 20px 50px;
 }
 
 .containerHome {

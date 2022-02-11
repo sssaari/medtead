@@ -35,7 +35,6 @@ function Kodukaid() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

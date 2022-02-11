@@ -37,7 +37,6 @@ function MassvaktsineerimisePooltJaVastu() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

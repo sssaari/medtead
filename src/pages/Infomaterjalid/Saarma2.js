@@ -63,7 +63,6 @@ function Saarma2() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

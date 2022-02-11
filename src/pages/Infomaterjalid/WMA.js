@@ -32,7 +32,6 @@ function Who() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

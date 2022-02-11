@@ -40,7 +40,6 @@ function Pressinurk4() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
