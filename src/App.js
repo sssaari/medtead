@@ -17,6 +17,9 @@ import KoroonastEmotsioonideta from "./pages/Infomaterjalid/koroonastEmotsioonid
 import MassvaktsineerimisePooltJaVastu from "./pages/Infomaterjalid/massvaktsineerimisePooltJaVastu";
 import Epidemioloogidelt from "./pages/Infomaterjalid/Epidemioloogidelt";
 import MuudHuvitavat from "./pages/Infomaterjalid/MuudHuvitavat";
+import Saarmalt from "./pages/Infomaterjalid/Saarmalt";
+import Raamatud from "./pages/Infomaterjalid/Raamatud";
+import DepressioonilOnMituNagu from "./pages/Infomaterjalid/DepressioonilOnMituNagu";
 import T6mbetuulesArstikunst from "./pages/Infomaterjalid/t6mbetuulesArstikunst";
 import JarvisteVastulause from "./pages/Infomaterjalid/jarvisteVastulause";
 import MiksVaksImikuid from "./pages/Infomaterjalid/MiksVaksImikuid";
@@ -27,7 +30,7 @@ import Pressinurk4 from "./pages/PRESSINURK/Pressinurk4";
 import Pressinurk5 from "./pages/PRESSINURK/Pressinurk5";
 import Saarma2 from "./pages/Infomaterjalid/Saarma2";
 import Saarma4 from "./pages/Infomaterjalid/Saarma4";
-import Saarmalt from "./pages/Infomaterjalid/Saarmalt";
+
 import Teaduslink1 from "./pages/Infomaterjalid/Teaduslink1";
 import KuidasDisainida from "./pages/Infomaterjalid/KuidasDisainida";
 
@@ -70,6 +73,12 @@ function App() {
           path="/Infomaterjalid/Muud-huvitavat"
           exact
           element={<MuudHuvitavat />}
+        />
+        <Route path="/Infomaterjalid/Raamatud" exact element={<Raamatud />} />
+        <Route
+          path="/Infomaterjalid/Raamatud/depressioonil-on-mitu-nagu-airi-varnik"
+          exact
+          element={<DepressioonilOnMituNagu />}
         />
         <Route
           path="/Infomaterjalid/erinevaid-kodulehekulgi"

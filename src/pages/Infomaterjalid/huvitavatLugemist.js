@@ -23,6 +23,9 @@ function Huvitavat() {
             <Link to="/Infomaterjalid/Muud-huvitavat">
               <li>MUUD HUVITAVAT</li>
             </Link>
+            <Link to="/Infomaterjalid/Raamatud">
+              <li>RAAMATUD</li>
+            </Link>
           </div>
         </div>
       </div>

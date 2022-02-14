@@ -30,6 +30,16 @@
   background-size: cover;*/
 }
 
+.bookCover {
+  width: 20vw;
+  float: left;
+  margin-right: 10px;
+}
+
+#depressioonText {
+  text-align: justify;
+}
+
 #hepatiidijoonis {
   width: 90%;
 }
