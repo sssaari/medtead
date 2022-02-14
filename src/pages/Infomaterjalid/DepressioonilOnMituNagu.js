@@ -63,21 +63,21 @@ function DepressioonilOnMituNagu() {
             on suuteline mõjutama aju. Ma väga usun, et see võib olla tulevik.“
           </p>
           <br />
-          Telli raamat -
+          Telli raamat -{" "}
           <a
             target="_blank"
             href="https://raamat24.ee/toode/depressioonil-on-mitu-nagu/"
           >
             Raamat24
           </a>
-          {", "}
+          {",  "}
           <a
             target="_blank"
             href="https://www.apollo.ee/depressioonil-on-mitu-nagu.html"
           >
             Apollo
           </a>
-          {", "}
+          {",  "}
           <a
             target="_blank"
             href="https://rahvaraamat.ee/p/depressioonil-on-mitu-n%C3%A4gu/1632764/et?isbn=9789916646724"
