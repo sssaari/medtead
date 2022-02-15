@@ -32,12 +32,26 @@
 
 .bookCover {
   width: 20vw;
-  float: left;
+  float: right;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
-#depressioonText {
+.bookText {
   text-align: justify;
+}
+
+.bookLine {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin-top: 20px;
+}
+
+.underTheLineText {
+  text-align: left;
+  font-style: italic;
+  font-size: 10pt;
 }
 
 #hepatiidijoonis {

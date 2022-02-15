@@ -1,7 +1,6 @@
-import Footer from "../../components/Footer";
-import Navbar from "../../components/Navbar/Navbar";
+import Navbar from "../../../components/Navbar/Navbar";
 import { Link } from "react-router-dom";
-import "./infomaterjalid.css";
+import "../infomaterjalid.css";
 
 function Ravisoovitused() {
   return (

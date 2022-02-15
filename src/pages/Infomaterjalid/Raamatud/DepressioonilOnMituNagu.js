@@ -1,5 +1,5 @@
-import Navbar from "../../components/Navbar/Navbar";
-import "./infomaterjalid.css";
+import Navbar from "../../../components/Navbar/Navbar";
+import "../infomaterjalid.css";
 
 function DepressioonilOnMituNagu() {
   return (
@@ -17,6 +17,7 @@ function DepressioonilOnMituNagu() {
           <br />
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://raamatud.postimees.ee/7439280/depressiooni-eest-ei-ole-keegi-kaitstud"
           >
             <em>
@@ -27,7 +28,7 @@ function DepressioonilOnMituNagu() {
           <br />
           <br />
           <img className="bookCover" src="../../airi_depressioon.jpeg" alt="" />
-          <p id="depressioonText">
+          <p className="bookText">
             Emeriitprofessor Airi Värnik on pikaajalise kogemusega kliiniline
             psühhiaater ja kahe doktorikraadiga teadlane.
             <br /> Tema vaade depressioonile ja selle ravile on avar. Ta avab
@@ -66,6 +67,7 @@ function DepressioonilOnMituNagu() {
           Telli raamat -{" "}
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://raamat24.ee/toode/depressioonil-on-mitu-nagu/"
           >
             Raamat24
@@ -73,6 +75,7 @@ function DepressioonilOnMituNagu() {
           {",  "}
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.apollo.ee/depressioonil-on-mitu-nagu.html"
           >
             Apollo
@@ -80,6 +83,7 @@ function DepressioonilOnMituNagu() {
           {",  "}
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://rahvaraamat.ee/p/depressioonil-on-mitu-n%C3%A4gu/1632764/et?isbn=9789916646724"
           >
             Rahva Raamat

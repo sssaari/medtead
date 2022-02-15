@@ -1,4 +1,4 @@
-import Navbar from "../../components/Navbar/Navbar";
+import Navbar from "../../../components/Navbar/Navbar";
 import { Link } from "react-router-dom";
 
 function Raamatud() {
@@ -14,7 +14,15 @@ function Raamatud() {
           <div className="articleCardIM lingid">
             <h1>Raamatud</h1>
             <Link to="/Infomaterjalid/Raamatud/depressioonil-on-mitu-nagu-airi-varnik">
-              <li>Airi Värnik - Depressioonil on mitu nägu - 2022</li>
+              <li>
+                <strong>Depressioonil on mitu nägu</strong> - Airi Värnik - 2022
+              </li>
+            </Link>
+            <Link to="/Infomaterjalid/Raamatud/the-immunity-fix">
+              <li>
+                <strong>The Immunity Fix</strong> - Dr James DiNicolantonio,
+                Siim Land - 2020
+              </li>
             </Link>
           </div>
         </div>

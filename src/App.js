@@ -10,7 +10,7 @@ import Artikkel from "./pages/Artikkel";
 import Who from "./pages/Infomaterjalid/WMA";
 import Kodukaid from "./pages/Infomaterjalid/kodukaid";
 import Huvitavat from "./pages/Infomaterjalid/huvitavatLugemist";
-import Ravisoovitused from "./pages/Infomaterjalid/Ravisoovitused";
+import Ravisoovitused from "./pages/Infomaterjalid/Ravisoovitused/Ravisoovitused";
 import Videod from "./pages/Infomaterjalid/videod";
 import TeadusuuringuteLingid from "./pages/Infomaterjalid/teadusuuringuteLingid";
 import KoroonastEmotsioonideta from "./pages/Infomaterjalid/koroonastEmotsioonideta";
@@ -18,8 +18,9 @@ import MassvaktsineerimisePooltJaVastu from "./pages/Infomaterjalid/massvaktsine
 import Epidemioloogidelt from "./pages/Infomaterjalid/Epidemioloogidelt";
 import MuudHuvitavat from "./pages/Infomaterjalid/MuudHuvitavat";
 import Saarmalt from "./pages/Infomaterjalid/Saarmalt";
-import Raamatud from "./pages/Infomaterjalid/Raamatud";
-import DepressioonilOnMituNagu from "./pages/Infomaterjalid/DepressioonilOnMituNagu";
+import Raamatud from "./pages/Infomaterjalid/Raamatud/Raamatud";
+import DepressioonilOnMituNagu from "./pages/Infomaterjalid/Raamatud/DepressioonilOnMituNagu";
+import ImmunityFix from "./pages/Infomaterjalid/Raamatud/ImmunityFix";
 import T6mbetuulesArstikunst from "./pages/Infomaterjalid/t6mbetuulesArstikunst";
 import JarvisteVastulause from "./pages/Infomaterjalid/jarvisteVastulause";
 import MiksVaksImikuid from "./pages/Infomaterjalid/MiksVaksImikuid";
@@ -30,9 +31,7 @@ import Pressinurk4 from "./pages/PRESSINURK/Pressinurk4";
 import Pressinurk5 from "./pages/PRESSINURK/Pressinurk5";
 import Saarma2 from "./pages/Infomaterjalid/Saarma2";
 import Saarma4 from "./pages/Infomaterjalid/Saarma4";
-
 import Teaduslink1 from "./pages/Infomaterjalid/Teaduslink1";
-import KuidasDisainida from "./pages/Infomaterjalid/KuidasDisainida";
 
 function App() {
   return (
@@ -79,6 +78,11 @@ function App() {
           path="/Infomaterjalid/Raamatud/depressioonil-on-mitu-nagu-airi-varnik"
           exact
           element={<DepressioonilOnMituNagu />}
+        />
+        <Route
+          path="/Infomaterjalid/Raamatud/the-immunity-fix"
+          exact
+          element={<ImmunityFix />}
         />
         <Route
           path="/Infomaterjalid/erinevaid-kodulehekulgi"
