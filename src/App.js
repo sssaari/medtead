@@ -9,21 +9,22 @@ import Pohikiri from "./pages/Pohikiri";
 import Artikkel from "./pages/Artikkel";
 import Who from "./pages/Infomaterjalid/WMA";
 import Kodukaid from "./pages/Infomaterjalid/kodukaid";
-import Huvitavat from "./pages/Infomaterjalid/huvitavatLugemist";
+import Huvitavat from "./pages/Infomaterjalid/HuvitavatLugemist/huvitavatLugemist";
 import Ravisoovitused from "./pages/Infomaterjalid/Ravisoovitused/Ravisoovitused";
 import Videod from "./pages/Infomaterjalid/videod";
 import TeadusuuringuteLingid from "./pages/Infomaterjalid/teadusuuringuteLingid";
-import KoroonastEmotsioonideta from "./pages/Infomaterjalid/koroonastEmotsioonideta";
-import MassvaktsineerimisePooltJaVastu from "./pages/Infomaterjalid/massvaktsineerimisePooltJaVastu";
-import Epidemioloogidelt from "./pages/Infomaterjalid/Epidemioloogidelt";
-import MuudHuvitavat from "./pages/Infomaterjalid/MuudHuvitavat";
+import KoroonastEmotsioonideta from "./pages/Infomaterjalid/HuvitavatLugemist/MuudHuvitavat/koroonastEmotsioonideta";
+import KaurParve from "./pages/Infomaterjalid/HuvitavatLugemist/MuudHuvitavat/KaurParve";
+import MassvaktsineerimisePooltJaVastu from "./pages/Infomaterjalid/HuvitavatLugemist/Epidemioloogidelt/massvaktsineerimisePooltJaVastu";
+import Epidemioloogidelt from "./pages/Infomaterjalid/HuvitavatLugemist/Epidemioloogidelt";
+import MuudHuvitavat from "./pages/Infomaterjalid/HuvitavatLugemist/MuudHuvitavat/MuudHuvitavat";
 import Saarmalt from "./pages/Infomaterjalid/Saarmalt";
 import Raamatud from "./pages/Infomaterjalid/Raamatud/Raamatud";
 import DepressioonilOnMituNagu from "./pages/Infomaterjalid/Raamatud/DepressioonilOnMituNagu";
 import ImmunityFix from "./pages/Infomaterjalid/Raamatud/ImmunityFix";
-import T6mbetuulesArstikunst from "./pages/Infomaterjalid/t6mbetuulesArstikunst";
-import JarvisteVastulause from "./pages/Infomaterjalid/jarvisteVastulause";
-import MiksVaksImikuid from "./pages/Infomaterjalid/MiksVaksImikuid";
+import T6mbetuulesArstikunst from "./pages/Infomaterjalid/HuvitavatLugemist/MuudHuvitavat/t6mbetuulesArstikunst";
+import JarvisteVastulause from "./pages/Infomaterjalid/HuvitavatLugemist/Epidemioloogidelt/jarvisteVastulause";
+import MiksVaksImikuid from "./pages/Infomaterjalid/HuvitavatLugemist/Epidemioloogidelt/MiksVaksImikuid";
 import Pressinurk1 from "./pages/PRESSINURK/Pressinurk1";
 import Pressinurk2 from "./pages/PRESSINURK/Pressinurk2";
 import Pressinurk3 from "./pages/PRESSINURK/Pressinurk3";
@@ -99,11 +100,12 @@ function App() {
           exact
           element={<T6mbetuulesArstikunst />}
         />
-        {/* <Route
-          path="/Infomaterjalid/Muud-huvitavat/kuidas-disainida-ohutut-vaktsiini"
+        <Route
+          path="/Infomaterjalid/Muud-huvitavat/kaur-parve-motisklus"
           exact
-          element={<KuidasDisainida />}
-        /> */}
+          element={<KaurParve />}
+        />
+
         <Route
           path="/Infomaterjalid/Kaari-Saarmalt"
           exact

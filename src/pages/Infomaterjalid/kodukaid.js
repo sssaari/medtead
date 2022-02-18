@@ -1,7 +1,5 @@
-import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import "./infomaterjalid.css";
-import { Link } from "react-router-dom";
 
 function Kodukaid() {
   return (

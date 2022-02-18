@@ -1,7 +1,6 @@
-import Footer from "../../components/Footer";
-import Navbar from "../../components/Navbar/Navbar";
+import Navbar from "../../../../components/Navbar/Navbar";
+import "../../infomaterjalid.css";
 import { Link } from "react-router-dom";
-import "./infomaterjalid.css";
 
 function MuudHuvitavat() {
   return (
@@ -22,6 +21,9 @@ function MuudHuvitavat() {
                 Riin Sildos - Teaduse ja progressi tõmbetuules arstikunst - okt
                 2021
               </li>
+            </Link>
+            <Link to="/Infomaterjalid/Muud-huvitavat/kaur-parve-motisklus">
+              <li>Kaur Parve mõtisklus - jaanuar 2022</li>
             </Link>
           </div>
         </div>

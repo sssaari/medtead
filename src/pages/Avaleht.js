@@ -145,7 +145,13 @@ function Avaleht() {
         </div>
         {openingText().map((element) => {
           if (element.lang === language) {
-            return <div className="cardHome">{element.fullText}</div>;
+            return (
+              <div className="cardHome">
+                {element.fullText}
+                <br />
+                <br />
+              </div>
+            );
           } else {
             return null;
           }

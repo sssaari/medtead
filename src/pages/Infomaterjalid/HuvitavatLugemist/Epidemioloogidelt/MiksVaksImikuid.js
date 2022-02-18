@@ -1,6 +1,5 @@
-import Footer from "../../components/Footer";
-import Navbar from "../../components/Navbar/Navbar";
-import "./infomaterjalid.css";
+import Navbar from "../../../../components/Navbar/Navbar";
+import "../../infomaterjalid.css";
 
 function MiksVaksImikuid() {
   return (
@@ -312,8 +311,6 @@ function MiksVaksImikuid() {
           </p>
         </div>
       </div>
-
-      
     </div>
   );
 }

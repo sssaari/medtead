@@ -12,13 +12,16 @@ function Pohikiri() {
         <div className="articleCard">
           <h1>PÕHIKIRI</h1>
           <h2>MTÜ ÜHINENUD MEEDIKUD JA TEADLASED </h2>
+          <br />
           <p>
             MTÜ juhatuse liikmete arvuks määratud 3-5 liiget.
             <br /> Asutamisel valitud juhatusse Alar Aab, Meeme Mõttus, Riin
             Sildos.
             <br /> MTÜ aadress Saaremaa, Vanalõve küla, Leieri talu, 94318.
           </p>
+          <br />
           <h3>MTÜ eesmärk:</h3>
+          <br />
           <p>
             a) võimaldada avalikku vaba arutelu eelkõige tervist puudutavates,
             aga ka teistes ühiskonnas laia kõlapinda/tähtsust omavates
@@ -31,7 +34,9 @@ function Pohikiri() {
             c) aidata kaasa bioeetika (sh. maditsiinieetika) põhitõdede
             teadvustamisele/tutvustamisele ühiskonnas.
           </p>
+          <br />
           <h3>MTÜ liikmelisuse tingimus:</h3>
+          <br />
           <p>
             MTÜ liikmeks võivad saada lõpetatud arsti või keskastme
             meditsiinitöötaja haridusega ja teadustööga tegelevad kõrgharidusega
@@ -53,7 +58,9 @@ function Pohikiri() {
             <br />
             Liige ei peaks kahjustama ühingu tegevust.
           </p>
+          <br />
           <h3>Üldkoosoleku kokkukutsumise tingimused ja kord:</h3>
+          <br />
           <p>
             Üldkoosoleku kutsub kokku MTÜ juhatus vähemalt 1/10 liikmete ühisel
             nõudmisel.

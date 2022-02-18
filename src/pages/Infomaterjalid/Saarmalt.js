@@ -17,13 +17,17 @@ function Saarmalt() {
 
             <Link to="/Infomaterjalid/Kaari-Saarmalt/labipodemine-vorreldes-vaktsineerimisega-annab-parema-kaitse-koroonaviiruse-vastu">
               <li>
+                <em>Alar Aab, Kaari Saarma, Sirje Rüütel Boudinot</em> -
                 Läbipõdemine võrreldes vaktsineerimisega annab parema kaitse
-                koroonaviiruse vastu
+                koroonaviiruse vastu - 08.10.2021
               </li>
             </Link>
 
             <Link to="/Infomaterjalid/Kaari-Saarmalt/covid-19-labipodenuid-diskrimineeritakse-alusetult">
-              <li>Covid-19 läbipõdenuid diskrimineeritakse alusetult</li>
+              <li>
+                <em>Kaari Saarma</em> - Covid-19 läbipõdenuid diskrimineeritakse
+                alusetult - 07.12.2021
+              </li>
             </Link>
           </div>
         </div>

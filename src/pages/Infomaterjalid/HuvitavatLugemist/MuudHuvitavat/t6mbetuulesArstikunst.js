@@ -1,7 +1,7 @@
-import Footer from "../../components/Footer";
-import Navbar from "../../components/Navbar/Navbar";
-import "./infomaterjalid.css";
-import pdfArticle from "../../static/Teaduse ja progressi tõmbetuules arstikunst.pdf";
+import Navbar from "../../../../components/Navbar/Navbar";
+import "../../infomaterjalid.css";
+
+import pdfArticle from "../../../../static/Teaduse ja progressi tõmbetuules arstikunst.pdf";
 
 function T6mbetuulesArstikunst() {
   return (

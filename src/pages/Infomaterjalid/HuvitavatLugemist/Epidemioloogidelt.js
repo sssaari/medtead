@@ -1,7 +1,5 @@
-import Footer from "../../components/Footer";
-import Navbar from "../../components/Navbar/Navbar";
+import Navbar from "../../../components/Navbar/Navbar";
 import { Link } from "react-router-dom";
-import getArticle from "../ArticleTexts";
 
 function Epidemioloogidelt() {
   return (
