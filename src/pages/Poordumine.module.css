@@ -1,0 +1,21 @@
+#kaaskiriContainer {
+  text-align: left;
+  width: 70vw;
+  max-width: 800px;
+  margin: 0 5%;
+  text-align: justify;
+}
+
+.title {
+}
+
+#netsLink {
+  margin: 0;
+  display: inline;
+}
+
+@media screen and (max-width: 768px) {
+  #kaaskiriContainer {
+    width: 90vw;
+  }
+}

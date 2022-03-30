@@ -9,6 +9,70 @@ function getArticle() {
         img: "",
         references: "",
       },*/
+    // {
+    //   articleID: "00011",
+    //   articleType: "poordumine",
+    //   title: "Kaaskiri",
+    //   preview:
+    //     "Riigikogus (RK) läheb 06.04.2022 esimesele lugemisele Nakkushaiguste Ennetuse ja Tõrje Seaduse (NETSi) muutmise eelnõu, milles on mitmeid puuduseid. Juba 2003.a. seaduses oli palju vajakajäämisi, millele ka  asjatundjad tähelepanu juhtisid, kuid paljusid asjaolusid ei võetud tookord arvesse.",
+    //   fullText: (
+    //     <div>
+    //       <p>
+    //         <strong>
+    //           Kaaskiri 30.03.2022
+    //           <br />
+    //           <br />
+    //         </strong>
+    //       </p>
+    //       <p>
+    //         Riigikogus (RK) läheb 06.04.2022 esimesele lugemisele Nakkushaiguste
+    //         Ennetuse ja Tõrje Seaduse (NETSi) muutmise eelnõu, milles on mitmeid
+    //         puuduseid. Juba 2003.a. seaduses oli palju vajakajäämisi, millele ka
+    //         asjatundjad tähelepanu juhtisid, kuid paljusid asjaolusid ei võetud
+    //         tookord arvesse. Praegune nakkushaiguste-alane olukord on muutunud
+    //         oluliselt ja vana puuduliku seaduse lappimine tundub halb variant.
+    //         Vajame uut NETSi, sest see seadus saab mõjutama meid kõiki oluliselt
+    //         lähiaastatel. Saatsime 30.03.2022 kõikidele RK liikmetele isiklikult
+    //         (lisaks RK sotsiaalkomisjonile) oma muret väljendava pöördumise,
+    //         palvega seaduse muudatustest loobuda ja keskenduda uue NETSi
+    //         väljatöötamisele, selleks professionaalse töörühma loomisele, milles
+    //         kindlasti peaks(id) olulist rolli mängima epidemioloog(id).
+    //         Epidemioloogia on eriala, mida on senises covid-kriisi käsitluses ja
+    //         Teadusnõukojas eiratud. Võimalik, et epidemioloog(id) tuleks kaasata
+    //         (lähi)välismaalt, kuna Eestis on see eriala klassikalisel kujul
+    //         hääbumas.
+    //         <br />
+    //         <br />
+    //         NETS-i parandusettepanekute eelnõu loomise käigus toimunud
+    //         aruandluse info leiab siit:{" "}
+    //         <a
+    //           target="_blank"
+    //           href="https://www.riigikogu.ee/tegevus/eelnoud/eelnou/78e753ef-87d0-4146-8415-a3e686151652/Nakkushaiguste%20ennetamise%20ja%20t%C3%B5rje%20seaduse%20muutmise%20ning%20sellega%20seonduvalt%20teiste%20seaduste%20muutmise%20seadus"
+    //         >
+    //           Nakkushaiguste ennetamise ja tõrje seaduse muutmise ning sellega
+    //           seonduvalt teiste seaduste muutmise seadus 536 SE
+    //         </a>
+    //         <br />
+    //         Muuhulgas selgub siit ka, et Eesti Arstide Liit (kelle poole on
+    //         pöördutud palvega panusele parandusseaduse loomisel) pole pidanud
+    //         vajalikuks ühtki kommentaari, muudatust ega parandust välja pakkuda.
+    //         <br />
+    //       </p>
+    //     </div>
+    //   ),
+    //   img: "",
+    //   references: "",
+    // },
+    {
+      articleID: "00010",
+      articleType: "poordumine",
+      title: "AVALIK PÖÖRDUMINE KÕIKIDELE RIIGIKOGU LIIKMETELE 30.03.2022",
+      preview:
+        " NETS II ehk 536SE jõuab Riigikogus esimesele lugemisele 6. aprillil. Meile teeb muret praeguse seaduse liiga kiire muutmine. Järgnevatele punktidele baseerudes teeme ettepaneku antud seaduseelnõu tagasi võtta ja uuesti läbi töötada, arvestades Eesti rahva tervise kõiki aspekte ning põhiõigusi.",
+      fullText: "",
+      img: "",
+      references: "",
+    },
     {
       articleID: "00009",
       articleType: "pressinurk",
