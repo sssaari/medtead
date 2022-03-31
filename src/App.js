@@ -64,11 +64,7 @@ function App() {
           element={<Ravisoovitused />}
         />
         <Route path="/Infomaterjalid/videod" exact element={<Videod />} />
-        <Route
-          path="/Infomaterjalid/huvitavat-lugemist"
-          exact
-          element={<Huvitavat />}
-        />
+        <Route path="/Infomaterjalid/artiklid" exact element={<Huvitavat />} />
         <Route
           path="/Infomaterjalid/Muud-huvitavat"
           exact

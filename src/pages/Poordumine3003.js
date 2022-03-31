@@ -15,7 +15,7 @@ function Poordumine3003() {
             <div id={classes.kaaskiriContainer}>
               <br />
               <h3>
-                <em>Kaaskiri 30.03.2022</em>
+                <em>30.03.2022</em>
                 <br />
               </h3>
               <p>

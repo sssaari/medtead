@@ -120,3 +120,12 @@
     width: 100%;
   }
 }
+
+.articleDate {
+  font-style: italic;
+  margin-bottom: 0;
+  text-align: left;
+  margin-bottom: 5px;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 500;
+}

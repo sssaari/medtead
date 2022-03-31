@@ -9,11 +9,11 @@ export const MenuItems = [
     path: "/Infomaterjalid/lingid-teadusuuringutele",
     cName: "dropdown-link",
   },
-  {
-    title: "Ravisoovitused",
-    path: "/Infomaterjalid/ravisoovitused",
-    cName: "dropdown-link",
-  },
+  // {
+  //   title: "Ravisoovitused",
+  //   path: "/Infomaterjalid/ravisoovitused",
+  //   cName: "dropdown-link",
+  // },
 
   {
     title: "Videod",
@@ -21,13 +21,18 @@ export const MenuItems = [
     cName: "dropdown-link",
   },
   {
-    title: "Huvitavat lugemist",
-    path: "/Infomaterjalid/huvitavat-lugemist",
+    title: "Artiklid",
+    path: "/Infomaterjalid/artiklid",
     cName: "dropdown-link",
   },
   {
     title: "Erinevaid kodulehekülgi",
     path: "/Infomaterjalid/erinevaid-kodulehekulgi",
+    cName: "dropdown-link",
+  },
+  {
+    title: "Raamatusoovitused",
+    path: "/Infomaterjalid/Raamatud",
     cName: "dropdown-link",
   },
 ];
