@@ -50,11 +50,6 @@ function Poordumine3003() {
                 </a>
                 <br />
                 <br />
-                Muuhulgas selgub siit ka, et Eesti Arstide Liit (kelle poole on
-                pöördutud palvega panusele parandusseaduse loomisel) pole
-                pidanud vajalikuks ühtki kommentaari, muudatust ega parandust
-                välja pakkuda.
-                <br />
               </p>
             </div>
             <a
